@@ -7,7 +7,7 @@
 
 	"require": {
 		"php": ">=5.3"
-		,"hypercharge/json-schema-php" : "*@dev"
+		,"hypercharge/json-schema-php" : "1.4.x-dev"
 	},
 	"require-dev": {
 		"vierbergenlars/simpletest": "*"
