@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment_response>
+  <status>error</status>
+  <code>320</code>
+  <technical_message>Parameter start_date is invalid.</technical_message>
+  <message>Please check input data for errors!</message>
+</payment_response>

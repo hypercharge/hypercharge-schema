@@ -1,0 +1,10 @@
+{
+  "payment_transaction": {
+    "transaction_type":"refund",
+    "transaction_id":"134rt6",
+    "reference_id":"57b3a7b166ffe873d0a11863560b410c",
+    "usage":"40208 concert canceld",
+    "amount":5000,
+    "currency":"USD"
+  }
+}

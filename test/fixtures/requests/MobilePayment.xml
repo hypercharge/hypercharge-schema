@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment>
+  <amount>5000</amount>
+  <billing_address>
+    <address1>Torstr. 123</address1>
+    <address2>HH 5. OG</address2>
+    <city>Berlin</city>
+    <country>DE</country>
+    <first_name>John</first_name>
+    <last_name>Doe</last_name>
+    <zip_code>10115</zip_code>
+  </billing_address>
+  <currency>EUR</currency>
+  <customer_email>customer@example.com</customer_email>
+  <customer_phone>004903000000000</customer_phone>
+  <expires_in>3600</expires_in>
+  <notification_url>https://example.com/mobile_payment_notify</notification_url>
+  <recurring_schedule>
+    <amount>5000</amount>
+    <interval>monthly</interval>
+    <start_date>2013-05-01</start_date>
+  </recurring_schedule>
+  <retries>3</retries>
+  <risk_params>
+    <ssn>This is a string</ssn>
+    <user_id>This is a string</user_id>
+  </risk_params>
+  <transaction_id>0AF671AF-4134-4BE7-BDF0-26E38B74106E</transaction_id>
+  <transaction_types>
+    <transaction_type>sale</transaction_type>
+  </transaction_types>
+  <type>MobilePayment</type>
+  <usage>Order 12345 pucrchase of concert tickets</usage>
+</payment>

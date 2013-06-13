@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment_responses per_page="100" total_count="298" page="2" pages_count="3">
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>approved</status>
+    <unique_id>25a1464848387259c63200a99f466e8c</unique_id>
+    <transaction_id>43671---775fff20a51e01303d37542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:00:26Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>e4fb3d28af8082971b616d5fc602f9bf</unique_id>
+    <transaction_id>43671---867b5a70a51e01303d38542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/e4fb3d28af8082971b616d5fc602f9bf</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:00:52Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>approved</status>
+    <unique_id>fae6c05f3595637b6d97b8d188364fec</unique_id>
+    <transaction_id>43671---879bc7d0a51e01303d38542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:00:53Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>approved</status>
+    <unique_id>9657195fc9d207dded94b78d58e13ded</unique_id>
+    <transaction_id>43671---ac43f0a0a51e01303d39542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:01:55Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>0d803525dae4c9fd422571a86c6a9a11</unique_id>
+    <transaction_id>43671---acf298e0a51e01303d39542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/0d803525dae4c9fd422571a86c6a9a11</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:01:56Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>approved</status>
+    <unique_id>40a025464505df332e9e7cf9d4dc9c2a</unique_id>
+    <transaction_id>43671---2e3f75a0a51f01303d3a542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:05:33Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>77f262c5b4388783ef18ade25ecb2c30</unique_id>
+    <transaction_id>43671---2e964fd0a51f01303d3a542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/77f262c5b4388783ef18ade25ecb2c30</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:05:34Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>approved</status>
+    <unique_id>c2029981a8ce0af5b4362f57557674a4</unique_id>
+    <transaction_id>43671---9980c740a51f01303d3b542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:08:33Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>8039bed7e87713bab7e0b2cd945f0e36</unique_id>
+    <transaction_id>43671---99f32850a51f01303d3b542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/8039bed7e87713bab7e0b2cd945f0e36</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:08:34Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>approved</status>
+    <unique_id>35073eb6a6f980f2017871228d304ef7</unique_id>
+    <transaction_id>43671---3cab45b0a52001303d3c542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:13:07Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>fae8c39e770d00171efd6915571ff126</unique_id>
+    <transaction_id>43671---3d2b6a60a52001303d3c542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/fae8c39e770d00171efd6915571ff126</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:13:07Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale</transaction_type>
+    <status>approved</status>
+    <unique_id>f398e943c8f757e341ea7afdd31e5bd5</unique_id>
+    <transaction_id>43671---3db45490a52001303d3c542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:13:08Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale</transaction_type>
+    <status>approved</status>
+    <unique_id>eb00c7a772682d2ad119fc2073050ad9</unique_id>
+    <transaction_id>43671---531da6c0a52001303d3d542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:13:44Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>approved</status>
+    <unique_id>5a05d290eeddbbbd7ccaccccecb57c3d</unique_id>
+    <transaction_id>43671---5391f910a52001303d3d542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:13:45Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>86e0e9f64e4d293c66fb5d60d71c83bf</unique_id>
+    <transaction_id>43671---53ea5c20a52001303d3d542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/86e0e9f64e4d293c66fb5d60d71c83bf</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:13:46Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>approved</status>
+    <unique_id>25982b9a092c2584aa4cca3bab09c49c</unique_id>
+    <transaction_id>43671---96fb9710a52001303d3e542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:15:38Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale</transaction_type>
+    <status>approved</status>
+    <unique_id>b50c2136f245cdf85af6f34b63b18101</unique_id>
+    <transaction_id>43671---9761e180a52001303d3e542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:15:39Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>82b726b53bfc31dd5fd2d25bb143f682</unique_id>
+    <transaction_id>43671---98093680a52001303d3e542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/82b726b53bfc31dd5fd2d25bb143f682</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:15:40Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>captured</status>
+    <unique_id>ea22db2a8a62780a3a45e6ed60db94dc</unique_id>
+    <transaction_id>43671---987db910a52001303d3e542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:15:41Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>capture</transaction_type>
+    <status>approved</status>
+    <unique_id>dcbed7be2a9f579670819ab3a2a0be0d</unique_id>
+    <transaction_id>43671---98f34270a52001303d3e542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:15:41Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>captured</status>
+    <unique_id>5bec1b9994d7ec45b2081a7dd345e1e5</unique_id>
+    <transaction_id>43671---b0571250a52001303d3f542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:16:21Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>capture</transaction_type>
+    <status>approved</status>
+    <unique_id>8b015c56fbf727b4c72eca66e35272e0</unique_id>
+    <transaction_id>43671---b0e0da00a52001303d3f542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:16:21Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale</transaction_type>
+    <status>approved</status>
+    <unique_id>0708681cd26643414f027058dbb912c0</unique_id>
+    <transaction_id>43671---b16daab0a52001303d3f542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:16:22Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>approved</status>
+    <unique_id>79fe0fd48d6590cef405e9d98c4c94b8</unique_id>
+    <transaction_id>43671---b1ea49e0a52001303d3f542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:16:23Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>3b704e37a32957d479998347c9b8d1e0</unique_id>
+    <transaction_id>43671---b257b340a52001303d3f542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/3b704e37a32957d479998347c9b8d1e0</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:16:24Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>43b565560daff456072f876310dd3224</unique_id>
+    <transaction_id>43671---b31316b0a52001303d3f542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/43b565560daff456072f876310dd3224</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:16:25Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>46a7ad2577fa5d5653fc1bbe348768a7</unique_id>
+    <transaction_id>43671---5c4dabf0a52101303d40542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/46a7ad2577fa5d5653fc1bbe348768a7</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:21:09Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>9086201b3f3828ad17249abbe30fbb51</unique_id>
+    <transaction_id>43671---5cd44ef0a52101303d40542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/9086201b3f3828ad17249abbe30fbb51</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:21:10Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale</transaction_type>
+    <status>approved</status>
+    <unique_id>0b87ee6d9d7178f3ccb8366ffe057267</unique_id>
+    <transaction_id>43671---5d7c0380a52101303d40542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:21:12Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>captured</status>
+    <unique_id>417a2a377c5fa34f37d46d525e1de7e8</unique_id>
+    <transaction_id>43671---5e56cdc0a52101303d40542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:21:12Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>capture</transaction_type>
+    <status>approved</status>
+    <unique_id>c4d0b05a94e76973dd7f092cadd223a0</unique_id>
+    <transaction_id>43671---5ec45d30a52101303d40542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:21:13Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>approved</status>
+    <unique_id>3ad661246ef71751a274f3400bc7f17e</unique_id>
+    <transaction_id>43671---5f412a00a52101303d40542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:21:14Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale</transaction_type>
+    <status>refunded</status>
+    <unique_id>dd71114f3b83cb155f3b0508b61de91f</unique_id>
+    <transaction_id>43671---5faf2850a52101303d40542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:21:15Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>refund</transaction_type>
+    <status>approved</status>
+    <unique_id>dcb98887659a446d716f4cbc8efcc1a5</unique_id>
+    <transaction_id>43671---603bd5b0a52101303d40542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:21:16Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>approved</status>
+    <unique_id>3ae37acf14be3ab7dab683d024466814</unique_id>
+    <transaction_id>43671---6ea3e6d0a52101303d41542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:21:40Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>8b80e8931db85bb1c2bb1769123413f8</unique_id>
+    <transaction_id>43671---6f2618b0a52101303d41542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/8b80e8931db85bb1c2bb1769123413f8</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:21:41Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale</transaction_type>
+    <status>approved</status>
+    <unique_id>2e741f4470cc0009f566015ef0caf048</unique_id>
+    <transaction_id>43671---6fb4a690a52101303d41542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:21:42Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>captured</status>
+    <unique_id>d6d7591acfa53e77cab9f883d97bddd0</unique_id>
+    <transaction_id>43671---7096cd50a52101303d41542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:21:43Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>capture</transaction_type>
+    <status>approved</status>
+    <unique_id>537b0f62483b457a12892f5eb391531b</unique_id>
+    <transaction_id>43671---71144390a52101303d41542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:21:44Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>466464a7a90dd8d2a31aa6a3c9fc3ea0</unique_id>
+    <transaction_id>43671---71811610a52101303d41542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/466464a7a90dd8d2a31aa6a3c9fc3ea0</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:21:45Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale</transaction_type>
+    <status>refunded</status>
+    <unique_id>0337937b38434f55db08cbf772048520</unique_id>
+    <transaction_id>43671---722cdfa0a52101303d41542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:21:46Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>refund</transaction_type>
+    <status>approved</status>
+    <unique_id>d691a9725e2681427f3c09cc080e46d7</unique_id>
+    <transaction_id>134rt6---728a8c40a52101303d41542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:21:47Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale</transaction_type>
+    <status>approved</status>
+    <unique_id>3217e64fcd677f749e557b9399247526</unique_id>
+    <transaction_id>43671---91e61050a52101303d42542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:22:39Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>cbfb2e80a9c69350cfc2472985730dd0</unique_id>
+    <transaction_id>43671---9299d030a52101303d42542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/cbfb2e80a9c69350cfc2472985730dd0</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:22:40Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>voided</status>
+    <unique_id>40bf42be612437b784f2b900921e3169</unique_id>
+    <transaction_id>43671---9351ea80a52101303d42542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:22:42Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>void</transaction_type>
+    <status>approved</status>
+    <unique_id>5e0c96b98928c6681a39effb4f239d83</unique_id>
+    <transaction_id>134rt78956---9428ecf0a52101303d42542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:22:43Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>captured</status>
+    <unique_id>d1f663b9a088129d1041915d8145099b</unique_id>
+    <transaction_id>43671---94db6890a52101303d42542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:22:45Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>capture</transaction_type>
+    <status>approved</status>
+    <unique_id>1fd0234253d9cdcdaf1160d713b73110</unique_id>
+    <transaction_id>43671---95c22460a52101303d42542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:22:45Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>6d42718bcc9f8313e320c95a56031545</unique_id>
+    <transaction_id>43671---961a2770a52101303d42542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/6d42718bcc9f8313e320c95a56031545</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:22:46Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale</transaction_type>
+    <status>refunded</status>
+    <unique_id>b5af6c296714e47307ae92bcd808efd7</unique_id>
+    <transaction_id>43671---97294900a52101303d42542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:22:48Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>refund</transaction_type>
+    <status>approved</status>
+    <unique_id>215780ce02c30d775e79bb5bffc8eb64</unique_id>
+    <transaction_id>134rt6---97d39260a52101303d42542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:22:49Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>approved</status>
+    <unique_id>7cd7b660050643746d954831cfe99a8d</unique_id>
+    <transaction_id>43671---98cfb450a52101303d42542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:22:51Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>approved</status>
+    <unique_id>edf8630097449e9f09b58905f6c7dc7f</unique_id>
+    <transaction_id>43671---b59d3c10a52101303d43542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:23:39Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>d7741d034ef900f769bc6c951de68369</unique_id>
+    <transaction_id>43671---b66d4000a52101303d43542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/d7741d034ef900f769bc6c951de68369</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:23:40Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale</transaction_type>
+    <status>approved</status>
+    <unique_id>1d4ee37fc7f3b2e57bec947bf486a6c4</unique_id>
+    <transaction_id>43671---b7446230a52101303d43542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:23:42Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale</transaction_type>
+    <status>approved</status>
+    <unique_id>d019d36da711787c92e79e8e3bb88ff6</unique_id>
+    <transaction_id>43671---b7f2fe00a52101303d43542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:23:43Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>captured</status>
+    <unique_id>f4d351baff970b50387878a39480da70</unique_id>
+    <transaction_id>43671---b87d1250a52101303d43542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:23:44Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>capture</transaction_type>
+    <status>approved</status>
+    <unique_id>0a7045613b7deeab2eb78eb8d9877c6a</unique_id>
+    <transaction_id>43671---b947f2f0a52101303d43542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:23:45Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>3faaacd8e577ff97e5e3154ecf71eba5</unique_id>
+    <transaction_id>43671---b9ecb570a52101303d43542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/3faaacd8e577ff97e5e3154ecf71eba5</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:23:46Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale</transaction_type>
+    <status>refunded</status>
+    <unique_id>55682a0b61f9ce969ec9839200edab19</unique_id>
+    <transaction_id>43671---bace8c90a52101303d43542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:23:49Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>refund</transaction_type>
+    <status>approved</status>
+    <unique_id>44c7554d701c024d68add21683bb5104</unique_id>
+    <transaction_id>134rt6---bc070c70a52101303d43542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:23:51Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>voided</status>
+    <unique_id>5d4def33cbac186ea1b3d18053cd248b</unique_id>
+    <transaction_id>43671---bd208e70a52101303d43542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:23:52Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>void</transaction_type>
+    <status>approved</status>
+    <unique_id>e8e89349d1eb4b7334065f1a69e4ab93</unique_id>
+    <transaction_id>134rt78956---bda39a20a52101303d43542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:23:52Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale</transaction_type>
+    <status>refunded</status>
+    <unique_id>eb41494b65b28984bbe907851ac6f508</unique_id>
+    <transaction_id>43671---d999e670a52101303d44542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:24:39Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>refund</transaction_type>
+    <status>approved</status>
+    <unique_id>ace3533531a52089460b827f453c190e</unique_id>
+    <transaction_id>134rt6---da057740a52101303d44542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:24:40Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale</transaction_type>
+    <status>approved</status>
+    <unique_id>adcf0e1ef1c6d7ca61ec82ae1eb8e51a</unique_id>
+    <transaction_id>43671---da8bad70a52101303d44542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:24:41Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>a3f009a3848ea7e77d467c39c94b6047</unique_id>
+    <transaction_id>43671---daf92c60a52101303d44542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/a3f009a3848ea7e77d467c39c94b6047</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:24:42Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>25b85a3a0f9ad9f43f53e831adf6fc50</unique_id>
+    <transaction_id>43671---db94eb70a52101303d44542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/25b85a3a0f9ad9f43f53e831adf6fc50</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:24:43Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>init_recurring_sale</transaction_type>
+    <status>approved</status>
+    <unique_id>e13d947de37d5b246b2c5c9f0b42b020</unique_id>
+    <transaction_id>43671---dc225db0a52101303d44542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:24:44Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>voided</status>
+    <unique_id>6b2b911856bbae593163d24332155b95</unique_id>
+    <transaction_id>43671---dc9fe930a52101303d44542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:24:44Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>void</transaction_type>
+    <status>approved</status>
+    <unique_id>7405927c02a5607357f6f7c81fa5ffc2</unique_id>
+    <transaction_id>134rt78956---dd1bd3f0a52101303d44542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:24:46Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>captured</status>
+    <unique_id>cc89a08ae9902dabf01a81d4f10d1da1</unique_id>
+    <transaction_id>43671---ddeb9580a52101303d44542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:24:47Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>capture</transaction_type>
+    <status>approved</status>
+    <unique_id>3eaf4deac572d4ab3bbb2a298c7fddfb</unique_id>
+    <transaction_id>43671---de59c9c0a52101303d44542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:24:47Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>approved</status>
+    <unique_id>c5b1d28dbff5f57fcadca4233b8c094f</unique_id>
+    <transaction_id>43671---dec1a590a52101303d44542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:24:48Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>init_recurring_authorize</transaction_type>
+    <status>approved</status>
+    <unique_id>7fd02f32c84b55918d02fe2efc82dc93</unique_id>
+    <transaction_id>43671---fcbe9590a52101303d45542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:25:38Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>init_recurring_sale</transaction_type>
+    <status>approved</status>
+    <unique_id>7bc688692b4b3240c3590f0f558fcdca</unique_id>
+    <transaction_id>43671---2a74c860a52201303d46542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:26:55Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>recurring_sale</transaction_type>
+    <status>approved</status>
+    <unique_id>7fec36cb9a48092312a63ab9cc5cc46d</unique_id>
+    <transaction_id>43671---2b1d3930a52201303d46542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:26:56Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>ideal_sale</transaction_type>
+    <status>error</status>
+    <unique_id>49375c21899cc169412ba607662f27d7</unique_id>
+    <transaction_id>145236---88e03990a52201303d48542696cde09d</transaction_id>
+    <code>340</code>
+    <technical_message>'currency' not supported by this channel</technical_message>
+    <message>Please check input data for errors!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:29:33Z</timestamp>
+    <bank_account_number>xxxxxxxxxx</bank_account_number>
+    <bank_number>20050550</bank_number>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>EUR</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>ideal_sale</transaction_type>
+    <status>pending_async</status>
+    <unique_id>5e4406b6bc2c7533f65c5c45e3884fde</unique_id>
+    <transaction_id>145236---a691be90a52201303d49542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/5e4406b6bc2c7533f65c5c45e3884fde</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:30:23Z</timestamp>
+    <bank_account_number>xxxxxxxxxx</bank_account_number>
+    <bank_number>20050550</bank_number>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>ideal_sale</transaction_type>
+    <status>pending_async</status>
+    <unique_id>5725e15e4dd5f5b84d785b026a6040e3</unique_id>
+    <transaction_id>145236---ad7a01f0a52201303d4a542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/5725e15e4dd5f5b84d785b026a6040e3</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:30:35Z</timestamp>
+    <bank_account_number>xxxxxxxxxx</bank_account_number>
+    <bank_number>20050550</bank_number>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale</transaction_type>
+    <status>approved</status>
+    <unique_id>2d1fc8a615a4151d9a2c727c1e3933da</unique_id>
+    <transaction_id>43671---dc37cc30a52201303d4b542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:31:53Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>referenced_fund_transfer</transaction_type>
+    <status>error</status>
+    <unique_id>f4229f4a4fd2945155ff45e84c338135</unique_id>
+    <transaction_id>B62D6848-78EA-4910-BFD8-920A3BF10CC5---dcb9bcd0a52201303d4b542696cde09d</transaction_id>
+    <code>100</code>
+    <technical_message>Unknown system error! Please contact support!</technical_message>
+    <message>Transaction failed, please contact support!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:31:54Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale</transaction_type>
+    <status>approved</status>
+    <unique_id>4d647ec16558628c57cc5198fd15a74e</unique_id>
+    <transaction_id>43671---e35c6f80a52201303d4c542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:32:05Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>referenced_fund_transfer</transaction_type>
+    <status>error</status>
+    <unique_id>afa461a41889de3162af0b664b861dbe</unique_id>
+    <transaction_id>B62D6848-78EA-4910-BFD8-920A3BF10CC5---e3bea420a52201303d4c542696cde09d</transaction_id>
+    <code>100</code>
+    <technical_message>Unknown system error! Please contact support!</technical_message>
+    <message>Transaction failed, please contact support!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:32:06Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale</transaction_type>
+    <status>approved</status>
+    <unique_id>52a573c8502178f171de03a65bd11f07</unique_id>
+    <transaction_id>43671---20426900a52301303d4d542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:33:47Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>referenced_fund_transfer</transaction_type>
+    <status>error</status>
+    <unique_id>57de220c2d8bad079df48bbbc4b999f5</unique_id>
+    <transaction_id>B62D6848-78EA-4910-BFD8-920A3BF10CC5---20a09350a52301303d4d542696cde09d</transaction_id>
+    <code>100</code>
+    <technical_message>Unknown system error! Please contact support!</technical_message>
+    <message>Transaction failed, please contact support!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:33:48Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale</transaction_type>
+    <status>approved</status>
+    <unique_id>49b3199d07c8fe6a6ec0725c3c546c2a</unique_id>
+    <transaction_id>43671---3aa8aaa0a52301303d4e542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:34:32Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>referenced_fund_transfer</transaction_type>
+    <status>error</status>
+    <unique_id>7a2ca1304de45cd31c1042aeb7036779</unique_id>
+    <transaction_id>B62D6848-78EA-4910-BFD8-920A3BF10CC5---3b54c8e0a52301303d4e542696cde09d</transaction_id>
+    <code>100</code>
+    <technical_message>Unknown system error! Please contact support!</technical_message>
+    <message>Transaction failed, please contact support!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:34:33Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>debit_sale</transaction_type>
+    <status>error</status>
+    <unique_id>2b1b56687951e31f9948f31a4c5aa69e</unique_id>
+    <transaction_id>145236---6b4b8070a52301303d50542696cde09d</transaction_id>
+    <code>340</code>
+    <technical_message>'currency' not supported by this channel</technical_message>
+    <message>Please check input data for errors!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:35:54Z</timestamp>
+    <bank_account_number>xxxxxxxxxx</bank_account_number>
+    <bank_number>20050550</bank_number>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <wire_reference_id>ABCD1234EF</wire_reference_id>
+    <amount>5000</amount>
+    <currency>EUR</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>debit_sale</transaction_type>
+    <status>error</status>
+    <unique_id>0269cf5b663d4d4d5f6b078b766466cd</unique_id>
+    <transaction_id>145236---79829f60a52301303d51542696cde09d</transaction_id>
+    <code>900</code>
+    <technical_message>Something went wrong, please contact support!</technical_message>
+    <message>Something went wrong, please contact support!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:36:17Z</timestamp>
+    <bank_account_number>xxxxxxxxxx</bank_account_number>
+    <bank_number>20050550</bank_number>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <wire_reference_id>ABCD1234EF</wire_reference_id>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>debit_sale</transaction_type>
+    <status>error</status>
+    <unique_id>27814620fd81520697f5f9f609ad06d8</unique_id>
+    <transaction_id>145236---9b491b50a52301303d52542696cde09d</transaction_id>
+    <code>900</code>
+    <technical_message>Something went wrong, please contact support!</technical_message>
+    <message>Something went wrong, please contact support!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:37:14Z</timestamp>
+    <bank_account_number>xxxxxxxxxx</bank_account_number>
+    <bank_number>20050550</bank_number>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <wire_reference_id>ABCD1234EF</wire_reference_id>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>init_recurring_sale</transaction_type>
+    <status>approved</status>
+    <unique_id>d23dc1baf0357f121d3c1dc51c411137</unique_id>
+    <transaction_id>43671---b89dba90a52301303d53542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:38:03Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize</transaction_type>
+    <status>approved</status>
+    <unique_id>93a3378c0c507ca2994acb21efbf6f3d</unique_id>
+    <transaction_id>43671---b9234cf0a52301303d53542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:38:04Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>71659f18e8cd50fa60c70d1a0dd99d67</unique_id>
+    <transaction_id>43671---b9bc38e0a52301303d53542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/71659f18e8cd50fa60c70d1a0dd99d67</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:38:05Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>authorize3d</transaction_type>
+    <status>pending_async</status>
+    <unique_id>377fd4ee99b6687402195390fdf4efd4</unique_id>
+    <transaction_id>43671---bab5a1d0a52301303d53542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/377fd4ee99b6687402195390fdf4efd4</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:38:07Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>init_recurring_sale</transaction_type>
+    <status>approved</status>
+    <unique_id>ccab256a9f60c16707626e5e010c213b</unique_id>
+    <transaction_id>43671---bbc05d80a52301303d53542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:38:08Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>recurring_sale</transaction_type>
+    <status>approved</status>
+    <unique_id>50096847b76e2a8bce16d24638e4e076</unique_id>
+    <transaction_id>43671---bc31ee20a52301303d53542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:38:09Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>sale</transaction_type>
+    <status>refunded</status>
+    <unique_id>d59e588ad90031e4eaa74ae60c07c0ea</unique_id>
+    <transaction_id>43671---bca9ae20a52301303d53542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:38:10Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>refund</transaction_type>
+    <status>approved</status>
+    <unique_id>7ba184e2b7c84aea6689b37ac2c08263</unique_id>
+    <transaction_id>134rt6---bd365ec0a52301303d53542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:38:11Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+  <payment_response>
+    <transaction_type>ideal_sale</transaction_type>
+    <status>pending_async</status>
+    <unique_id>7957623991e2306cade438248863eb8a</unique_id>
+    <transaction_id>145236---bda4f200a52301303d53542696cde09d</transaction_id>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/7957623991e2306cade438248863eb8a</redirect_url>
+    <mode>test</mode>
+    <timestamp>2013-05-22T15:38:11Z</timestamp>
+    <bank_account_number>xxxxxxxxxx</bank_account_number>
+    <bank_number>20050550</bank_number>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+  </payment_response>
+</payment_responses>

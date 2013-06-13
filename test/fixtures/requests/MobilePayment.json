@@ -1,0 +1,35 @@
+{
+   "payment":{
+      "type":"MobilePayment",
+      "amount":5000,
+      "currency":"EUR",
+      "transaction_id":"0AF671AF-4134-4BE7-BDF0-26E38B74106E",
+      "usage":"Order 12345 pucrchase of concert tickets",
+      "customer_email":"customer@example.com",
+      "customer_phone":"004903000000000",
+      "notification_url":"https://example.com/mobile_payment_notify",
+      "billing_address":{
+         "first_name":"John",
+         "last_name":"Doe",
+         "address1":"Torstr. 123",
+         "address2":"HH 5. OG",
+         "city":"Berlin",
+         "zip_code":"10115",
+         "country":"DE"
+      },
+      "transaction_types":[
+         "sale"
+      ],
+      "retries": 3,
+      "expires_in":3600,
+      "risk_params":{
+         "ssn":"This is a string",
+         "user_id":"This is a string"
+      },
+      "recurring_schedule": {
+        "start_date":"2013-05-01",
+        "amount": 5000,
+        "interval": "monthly"
+      }
+   }
+}

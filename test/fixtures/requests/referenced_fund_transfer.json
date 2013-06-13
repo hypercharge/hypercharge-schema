@@ -1,0 +1,11 @@
+{
+	"payment_transaction": {
+	  "transaction_type":"referenced_fund_transfer",
+	  "transaction_id":"B62D6848-78EA-4910-BFD8-920A3BF10CC5",
+	  "reference_id":"57b3a7b166ffe873d0a11863560b410c",
+	  "usage":"40208 concert canceld",
+	  "remote_ip":"245.253.2.12",
+	  "amount":5000,
+	  "currency":"USD"
+	}
+}

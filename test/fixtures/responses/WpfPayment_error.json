@@ -1,0 +1,8 @@
+{
+   "payment":{
+      "status":"error",
+      "code":"100",
+      "technical_message":"Unknown system error. Please contact support.",
+      "message":"Transaction failed, please contact support!"
+   }
+}

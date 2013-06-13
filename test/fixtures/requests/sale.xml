@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment_transaction>
+  <amount>5000</amount>
+  <billing_address>
+    <address1>Muster Str. 12</address1>
+    <city>Berlin</city>
+    <country>DE</country>
+    <first_name>Max</first_name>
+    <last_name>Mustermann</last_name>
+    <zip_code>10178</zip_code>
+  </billing_address>
+  <card_holder>Emil Example</card_holder>
+  <card_number>4200000000000000</card_number>
+  <currency>USD</currency>
+  <customer_email>emil@example.com</customer_email>
+  <customer_phone>+49301234567</customer_phone>
+  <cvv>123</cvv>
+  <expiration_month>2</expiration_month>
+  <expiration_year>2010</expiration_year>
+  <remote_ip>245.253.2.12</remote_ip>
+  <risk_params>
+    <ssn>This is a string</ssn>
+    <user_id>This is a string</user_id>
+  </risk_params>
+  <transaction_id>43671</transaction_id>
+  <transaction_type>sale</transaction_type>
+  <usage>40208 concert tickets</usage>
+</payment_transaction>

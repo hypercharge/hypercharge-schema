@@ -1,0 +1,13 @@
+{
+   "schedule_unique_id":"26aa150ee68b1b2d6758a0e6c44fce4c",
+   "schedule_event_due_date":"2013-01-21 00:00:00",
+   "schedule_event_finalized_date":"2013-01-22 00:00:00",
+   "schedule_event_status":"approved",
+   "event_unique_id":"bad08183a9ec545daf0f24c48361aa10",
+   "notification_type":"recurring",
+   "signature":"c5219b3d385e74496b2b48a5497b347e102849f10eacd25b062f823bbd11249ce4e233f031c0ecebc9b691e69d23eb0c1cd65a79621152467b56ac2bf103b512",
+   "payment_transaction_channel_token":"e9fd7a957845450fb7ab9dccb498b6e1f6e1e3aa",
+   "payment_transaction_unique_id":"bad08183a9ec545daf0f24c48361aa10",
+   "payment_transaction_transaction_type":"recurring_sale",
+   "payment_transaction_status":"approved"
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment>
+  <status>error</status>
+  <code>100</code>
+  <technical_message>Unknown system error. Please contact support.</technical_message>
+  <message>Transaction failed, please contact support!</message>
+</payment>

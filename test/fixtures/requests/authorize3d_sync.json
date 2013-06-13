@@ -1,0 +1,34 @@
+{
+  "payment_transaction": {
+    "transaction_type":"authorize3d",
+    "transaction_id":"43671",
+    "usage":"40208 concert tickets",
+    "remote_ip":"245.253.2.12",
+    "amount":5000,
+    "currency":"USD",
+    "card_holder":"Emil Example",
+    "card_number":"4200000000000000",
+    "cvv":"123",
+    "expiration_month":"02",
+    "expiration_year":"2010",
+    "customer_email":"emil@example.com",
+    "customer_phone":"+49301234567",
+    "billing_address": {
+      "first_name":"Max",
+      "last_name":"Mustermann",
+      "address1":"Muster Str. 12",
+      "zip_code":"10178",
+      "city":"Berlin",
+      "country":"DE"
+    },
+    "mpi_params": {
+      "cavv":"AAACA1BHADYJkIASQkcAAAAAAAA=",
+      "eci":"05",
+      "xid":"0pv62FIrT5qQODB7DCewKgEBAQI="
+    },
+    "risk_params":{
+       "ssn":"This is a string",
+       "user_id":"This is a string"
+    }
+  }
+}

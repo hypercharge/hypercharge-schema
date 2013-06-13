@@ -1,0 +1,10 @@
+{
+  "payment_transaction":{
+    "transaction_type":"capture",
+    "transaction_id":"43671",
+    "usage":"0208 concert tickets",
+    "reference_id":"2ee4287e67971380ef7f97d5743bb523",
+    "amount":5000,
+    "currency":"USD"
+  }
+}

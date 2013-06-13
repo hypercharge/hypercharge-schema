@@ -1,0 +1,20 @@
+{
+   "payment":{
+      "type":"MobilePayment",
+      "status":"new",
+      "unique_id":"eabcb7a41044e764746b0c7e32c1e9d1",
+      "transaction_id":"wev238f328nc",
+      "technical_message":"TESTMODE: No real money will be transferred!",
+      "message":"TESTMODE: No real money will be transferred!",
+      "mode":"test",
+      "timestamp":"2011-04-19T15:00:11Z",
+      "amount":"5000",
+      "currency":"USD",
+      "redirect_url":"https://testpayment.hypercharge.net/mobile/submit/eabcb7a41044e764746b0c7e32c1e9d1",
+      "cancel_url":"https://testpayment.hypercharge.net/mobile/cancel/eabcb7a41044e764746b0c7e32c1e9d1",
+      "payment_methods":[
+         "credit_card",
+         "direct_debit"
+      ]
+   }
+}

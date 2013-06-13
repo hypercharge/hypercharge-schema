@@ -1,0 +1,10 @@
+{
+  "ssn":"987-65-4320",
+  "mac_address":"12-34-56-78-9A-BC",
+  "session_id":"1DA53551-5C60-498C-9C18-8456BDBA74A9",
+  "user_id":"1002547",
+  "user_level":"vip",
+  "email":"emil@example.com",
+  "phone":"+49301234567",
+  "remote_ip":"245.253.2.12"
+}

@@ -1,0 +1,24 @@
+{
+	"name":"hypercharge/hypercharge-schema",
+	"description":"Hypercharge API JSON Schema",
+	"keywords": ["hypercharge", "payment", "api", "schema"],
+	"hompage":"http://hypercharge.net",
+	"licence":"MIT",
+  "repositories": [
+   	{
+			"type": "vcs",
+    	"url": "https://github.com/hypercharge/json-schema.git"
+		}
+  ],
+
+	"require": {
+		"php": ">=5.3"
+		,"justinrainbow/json-schema" : "dev-master"
+	},
+	"require-dev": {
+		"vierbergenlars/simpletest": "*"
+	},
+  "autoload": {
+  	"classmap": ["lib/php/"]
+  }
+}

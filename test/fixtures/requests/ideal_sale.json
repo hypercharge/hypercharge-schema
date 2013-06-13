@@ -1,0 +1,31 @@
+{
+  "payment_transaction":{
+    "transaction_type":"ideal_sale",
+    "transaction_id":"145236",
+    "notification_url":"https://www.example.com/notification",
+    "return_success_url":"http://www.example.com/success.html",
+    "return_failure_url":"http://www.example.com/failure.html",
+    "bank_name":"RABOBANK",
+    "bank_account_holder":"Thomas van der Landen",
+    "bank_account_number":"1290701",
+    "bank_number":"20050550",
+    "usage":"40208 concert tickets",
+    "remote_ip":"127.0.0.1",
+    "amount":5000,
+    "currency":"EUR",
+    "customer_email":"thomas@example.com",
+    "customer_phone":"+49301234567",
+    "billing_address":{
+      "first_name":"Thomas",
+      "last_name":"van der Landen",
+      "address1":"Boschdijk 1092",
+      "zip_code":"5631 AV",
+      "city":"Eindhoven",
+      "country":"NL"
+    },
+    "risk_params":{
+       "ssn":"This is a string",
+       "user_id":"This is a string"
+    }
+  }
+}

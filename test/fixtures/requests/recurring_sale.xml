@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment_transaction>
+  <amount>5000</amount>
+  <currency>USD</currency>
+  <reference_id>2ee4287e67971380ef7f97d5743bb523</reference_id>
+  <remote_ip>127.0.0.1</remote_ip>
+  <transaction_id>43671</transaction_id>
+  <transaction_type>recurring_sale</transaction_type>
+  <usage>40208 concert tickets</usage>
+</payment_transaction>

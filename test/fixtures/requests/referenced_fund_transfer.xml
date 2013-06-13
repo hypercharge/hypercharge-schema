@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment_transaction>
+  <amount>5000</amount>
+  <currency>USD</currency>
+  <reference_id>57b3a7b166ffe873d0a11863560b410c</reference_id>
+  <remote_ip>245.253.2.12</remote_ip>
+  <transaction_id>B62D6848-78EA-4910-BFD8-920A3BF10CC5</transaction_id>
+  <transaction_type>referenced_fund_transfer</transaction_type>
+  <usage>40208 concert canceld</usage>
+</payment_transaction>

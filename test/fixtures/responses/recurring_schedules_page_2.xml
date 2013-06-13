@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recurring_schedules per_page="3" pages_count="2" page="2" total_count="4">
+  <recurring_schedule>
+    <recurring_reference_id>3641b4fbe80051319a60ceeacf15c8c1</recurring_reference_id>
+    <start_date>2012-07-15</start_date>
+    <amount>7700</amount>
+    <end_date>2013-06-15</end_date>
+    <interval>monthly</interval>
+    <active>true</active>
+    <enabled>true</enabled>
+  </recurring_schedule>
+</recurring_schedules>

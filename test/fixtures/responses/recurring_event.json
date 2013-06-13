@@ -1,0 +1,22 @@
+{
+   "recurring_event":{
+      "unique_id":"44177a21403427eb96664a6d7e5d5d48",
+      "reference_id":"5e2cbbad71d2b13432323153c208223a",
+      "status":"approved",
+      "due_date":"2012-04-15",
+      "finalized_at":"2012-04-15",
+      "payment_response":{
+         "transaction_type":"recurring_sale",
+         "status":"approved",
+         "unique_id":"44177a21403427eb96664a6d7e5d5d48",
+         "transaction_id":"3872422-001-1",
+         "technical_message":"TESTMODE: No real money will be transferred!",
+         "message":"TESTMODE: No real money will be transferred!",
+         "mode":"test",
+         "timestamp":"2012-04-15T02:00:12Z",
+         "descriptor":"descriptor one",
+         "amount":"1000",
+         "currency":"EUR"
+      }
+   }
+}

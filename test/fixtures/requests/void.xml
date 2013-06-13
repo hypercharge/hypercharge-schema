@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment_transaction>
+  <reference_id>57b3a7b166ffe873d0a11863560b410c</reference_id>
+  <transaction_id>134rt78956</transaction_id>
+  <transaction_type>void</transaction_type>
+  <usage>40208 concert canceled</usage>
+</payment_transaction>

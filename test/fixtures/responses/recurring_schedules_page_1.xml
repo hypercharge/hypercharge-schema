@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recurring_schedules per_page="3" pages_count="2" page="1" total_count="4">
+  <recurring_schedule>
+    <recurring_reference_id>44177a21403427eb96664a6d7e5d5d48</recurring_reference_id>
+    <start_date>2012-05-15</start_date>
+    <end_date>2013-04-15</end_date>
+    <amount>1000</amount>
+    <interval>monthly</interval>
+    <active>true</active>
+    <enabled>true</enabled>
+    </recurring_schedule>
+  <recurring_schedule>
+  <recurring_reference_id>5e2cbbad71d2b13432323153c208223a</recurring_reference_id>
+    <start_date>2012-06-15</start_date>
+    <end_date>2013-05-15</end_date>
+    <amount>500</amount>
+    <interval>quarterly</interval>
+    <active>true</active>
+    <enabled>true</enabled>
+  </recurring_schedule>
+  <recurring_schedule>
+    <recurring_reference_id>3641b4fbe80051319a60ceeacf15c8c7</recurring_reference_id>
+    <start_date>2012-07-15</start_date>
+    <end_date>2013-06-15</end_date>
+    <amount>1500</amount>
+    <interval>monthly</interval>
+    <active>true</active>
+    <enabled>true</enabled>
+  </recurring_schedule>
+</recurring_schedules>

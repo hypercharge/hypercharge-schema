@@ -1,0 +1,34 @@
+{
+  "payment_transaction":{
+    "transaction_type":"init_recurring_debit_sale",
+    "transaction_id":"145236",
+    "wire_reference_id":"ABCD1234EF",
+    "bank_account_holder":"Manfred Test",
+    "bank_account_number":"1290701",
+    "bank_number":"20050550",
+    "usage":"40208 concert tickets",
+    "remote_ip":"127.0.0.1",
+    "amount":5000,
+    "currency":"EUR",
+    "customer_email":"manfred.test@example.com",
+    "customer_phone":"+49301234567",
+    "billing_address":{
+      "first_name":"Manfred",
+      "last_name":"Test",
+      "address1":"Test Str. 123",
+      "zip_code":"12345",
+      "city":"Berlin",
+      "country":"DE"
+    },
+    "risk_params":{
+       "ssn":"This is a string",
+       "user_id":"This is a string"
+    },
+    "recurring_schedule":{
+      "start_date": "2013-05-23",
+      "amount": 5000,
+      "interval": "monthly"
+    }
+  }
+}
+
