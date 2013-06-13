@@ -4,12 +4,7 @@
 	"keywords": ["hypercharge", "payment", "api", "schema"],
 	"hompage":"http://hypercharge.net",
 	"licence":"MIT",
-  "repositories": [
-		{
-	    "type": "vcs",
-      "url": "https://github.com/hypercharge/json-schema-php.git"
-    }
-  ],
+
 	"require": {
 		"php": ">=5.3"
 		,"hypercharge/json-schema-php" : "dev-master"
