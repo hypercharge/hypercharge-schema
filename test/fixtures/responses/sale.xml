@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment_response>
+  <transaction_type>sale</transaction_type>
+  <status>approved</status>
+  <unique_id>5e2cbbad71d2b1343232abc3c208223a</unique_id>
+  <transaction_id>43671</transaction_id>
+  <mode>test</mode>
+  <timestamp>2013-04-30T07:07:01Z</timestamp>
+  <descriptor>descriptor one</descriptor>
+  <amount>5000</amount>
+  <currency>USD</currency>
+</payment_response>
