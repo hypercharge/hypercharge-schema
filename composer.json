@@ -3,8 +3,7 @@
 	"description":"Hypercharge API JSON Schema",
 	"keywords": ["hypercharge", "payment", "api", "json", "schema"],
 	"hompage":"http://hypercharge.net",
-	"licence":"MIT",
-
+	"license":"MIT",
 	"require": {
 		"php": ">=5.3"
 		,"hypercharge/json-schema-php" : "~1.3"
