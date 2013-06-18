@@ -1,5 +1,6 @@
+# hypercharge-schema
 
-
+json-schema for hypercharge payment request data.
 
 ## PHP Tests
 
@@ -11,7 +12,7 @@ Install Composer and dependencies
 
 run test
 
-	php test/mobile_payment_schema_test.php
+	php test/php/all.php
 
 ## Nodejs Tests
 
