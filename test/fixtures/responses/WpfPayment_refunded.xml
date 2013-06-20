@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment>
+  <type>WpfPayment</type>
+  <status>refunded</status>
+  <unique_id>bf284f00ae8b834b5d24c841cbc024f7</unique_id>
+  <transaction_id>0AF671AF-4134-4BE7-BDF0-26E38B74106E---50562be0baef0130c962542696cde09d</transaction_id>
+  <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+  <message>TESTMODE: No real money will be transferred!</message>
+  <mode>test</mode>
+  <timestamp>2013-06-19T09:18:05Z</timestamp>
+  <amount>5000</amount>
+  <currency>USD</currency>
+  <payment_transaction>
+    <status>refunded</status>
+    <transaction_type>sale</transaction_type>
+    <unique_id>80141b0d977a47ef67ed127fb92c3aa4</unique_id>
+    <transaction_id>0AF671AF-4134-4BE7-BDF0-26E38B74106E---50562be0baef0130c962542696cde09d</transaction_id>
+    <channel_token>a826d985097582fedf0e1459b1defb51167c3bb6</channel_token>
+    <mode>test</mode>
+    <timestamp>2013-06-19T09:18:08Z</timestamp>
+    <descriptor>sankyu.com/bogus +49123456789</descriptor>
+    <amount>5000</amount>
+    <currency>USD</currency>
+    <customer_email>customer@example.com</customer_email>
+    <customer_phone>1234567890</customer_phone>
+    <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+    <message>TESTMODE: No real money will be transferred!</message>
+    <billing_address>
+      <first_name>John</first_name>
+      <last_name>Doe</last_name>
+      <address1>Torstr. 123</address1>
+      <address2>HH 5. OG</address2>
+      <zip_code>10115</zip_code>
+      <city>Berlin</city>
+      <state></state>
+      <country>DE</country>
+    </billing_address>
+  </payment_transaction>
+</payment>

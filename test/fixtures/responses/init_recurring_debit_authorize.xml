@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment_response>
+  <transaction_type>init_recurring_debit_authorize</transaction_type>
+  <status>approved</status>
+  <unique_id>eb3d929375017cbf9347471f4ccc3299</unique_id>
+  <transaction_id>145236---48243020baec0130c95b542696cde09d</transaction_id>
+  <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+  <message>TESTMODE: No real money will be transferred!</message>
+  <mode>test</mode>
+  <timestamp>2013-06-19T08:56:22Z</timestamp>
+  <bank_account_number>xxxxxxxxxx</bank_account_number>
+  <bank_number>20050550</bank_number>
+  <descriptor>sankyu.com/bogus +49123456789</descriptor>
+  <wire_reference_id>ABCD1234EF</wire_reference_id>
+  <amount>5000</amount>
+  <currency>USD</currency>
+</payment_response>

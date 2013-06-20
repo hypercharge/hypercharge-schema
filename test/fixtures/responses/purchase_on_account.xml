@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment_response>
+  <transaction_type>purchase_on_account</transaction_type>
+  <status>pending_async</status>
+  <unique_id>47f2d67a6f92469f40dcdfb138101e34</unique_id>
+  <transaction_id>145236---efd729f0baeb0130c959542696cde09d</transaction_id>
+  <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+  <message>TESTMODE: No real money will be transferred!</message>
+  <mode>test</mode>
+  <timestamp>2013-06-19T08:53:55Z</timestamp>
+  <bank_account_number>xxxxxxxxxx</bank_account_number>
+  <bank_number>51230800</bank_number>
+  <descriptor>sankyu.com/bogus +49123456789</descriptor>
+  <wire_reference_id>123456ABCDEFG</wire_reference_id>
+  <payment_guarantee>false</payment_guarantee>
+  <amount>5000</amount>
+  <currency>USD</currency>
+</payment_response>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment_response>
+  <transaction_type>sale3d</transaction_type>
+  <status>approved</status>
+  <unique_id>ae69cb8469df4eb1b037c779988feae4</unique_id>
+  <transaction_id>43671---f498e310baed0130c961542696cde09d</transaction_id>
+  <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+  <message>TESTMODE: No real money will be transferred!</message>
+  <mode>test</mode>
+  <timestamp>2013-06-19T09:08:22Z</timestamp>
+  <descriptor>sankyu.com/bogus +49123456789</descriptor>
+  <amount>5000</amount>
+  <currency>USD</currency>
+</payment_response>
