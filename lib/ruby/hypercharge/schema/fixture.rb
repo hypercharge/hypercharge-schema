@@ -5,10 +5,6 @@ require 'json'
 module Hypercharge
 	module Schema::Fixture
 
-	  def self.path
-	  	"#{Dir.pwd}/test/fixtures/"
-	  end
-
 	  def self.xml(path)
 	    IO.read(File.expand_path("../../../../../test/fixtures/#{path}.xml", __FILE__))
 	  end
