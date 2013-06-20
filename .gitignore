@@ -1,4 +1,4 @@
-*.DS_Store
+**.DS_Store
 draft-03.schema.json
 composer.lock
 composer.phar
