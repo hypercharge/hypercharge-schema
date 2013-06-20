@@ -6,7 +6,7 @@ module Hypercharge
 	module Schema::Fixture
 
 	  def self.path
-	  	"../../../../../test/fixtures/"
+	  	"#{Dir.pwd}/test/fixtures/"
 	  end
 
 	  def self.xml(path)
