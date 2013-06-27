@@ -2,6 +2,6 @@
 
 module Hypercharge
   module Schema
-    VERSION = "0.0.1"
+    VERSION = "1.24.1"
   end
 end
