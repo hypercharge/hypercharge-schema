@@ -9,7 +9,7 @@ class JsonSchemaValidator {
 	* @param string $schemaName  e.g. "MobilePayment" for /json/MobilePayment.json  or "sale" for /json/sale.json
 	*/
 	function __construct($schemaName) {
-		$this->schemaUri = 'file://'.dirname(dirname(__DIR__)).'/json/'.$schemaName.'.json';
+		$this->schemaUri = 'file://'. self::schemaPathFor($schemaName);
 
 		//var_dump('schemaUri', $this->schemaUri);
 
@@ -32,5 +32,14 @@ class JsonSchemaValidator {
 		$errors = $validator->getErrors();
 		if(empty($errors)) return false;
 		return $errors;
+	}
+
+	/**
+	* doesn't check if schema file exists
+	* @param string $type e.g. 'sale', 'authorize', 'capture', 'void', ...
+	* @return string absolute path to schema file
+	*/
+	static function schemaPathFor($type) {
+		return dirname(dirname(__DIR__)).'/json/'. $type .'.json';
 	}
 }

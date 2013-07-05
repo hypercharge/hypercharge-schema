@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment_response>
+  <transaction_type>direct_pay24_sale</transaction_type>
+  <status>pending_async</status>
+  <unique_id>2e193f8316a460ab2eb0dd935139fb07</unique_id>
+  <transaction_id>145236---51d5939fb0f49</transaction_id>
+  <technical_message>TESTMODE: No real money will be transferred!</technical_message>
+  <message>TESTMODE: No real money will be transferred!</message>
+  <redirect_url>https://test.hypercharge.net/redirect/to_acquirer/2e193f8316a460ab2eb0dd935139fb07</redirect_url>
+  <mode>test</mode>
+  <timestamp>2013-07-04T15:22:31Z</timestamp>
+  <descriptor>sankyu.com/bogus +49123456789</descriptor>
+  <amount>5000</amount>
+  <currency>EUR</currency>
+</payment_response>
