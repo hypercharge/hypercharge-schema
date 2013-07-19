@@ -1,10 +1,11 @@
 # coding: utf-8
+require File.expand_path('../lib/ruby/hypercharge/schema/version.rb', __FILE__)
 lib = File.expand_path('../lib/ruby/', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "hypercharge-schema"
-  spec.version       = '1.24.2'
+  spec.version       = Hypercharge::Schema::VERSION
   spec.authors       = ["Luzifer Altenberg", "Jan Mentzel"]
   spec.email         = ["luzifer@atomgas.de", "jan@hypercharge.net"]
   spec.summary       = %q{hypercharge API requests json schema}
