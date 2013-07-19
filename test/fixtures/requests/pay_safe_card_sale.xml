@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment_transaction>
+  <amount>5000</amount>
+  <billing_address>
+    <address1>Test Str. 123</address1>
+    <city>Berlin</city>
+    <country>DE</country>
+    <first_name>Manfred</first_name>
+    <last_name>Test</last_name>
+    <zip_code>12345</zip_code>
+  </billing_address>
+  <currency>EUR</currency>
+  <customer_email>manfred.test@example.com</customer_email>
+  <customer_phone>+49301234567</customer_phone>
+  <notification_url>https://www.example.com/notification</notification_url>
+  <remote_ip>127.0.0.1</remote_ip>
+  <return_failure_url>http://www.example.com/failure.html</return_failure_url>
+  <return_success_url>http://www.example.com/success.html</return_success_url>
+  <transaction_id>145236</transaction_id>
+  <transaction_type>pay_safe_card_sale</transaction_type>
+  <usage>40208 concert tickets</usage>
+</payment_transaction>
