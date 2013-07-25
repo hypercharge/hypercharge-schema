@@ -18,11 +18,11 @@ $xmlString = Hypercharge\JsonSchemaFixture::response('sale.xml');
 
 and ruby
 ```ruby
-// request to hypercharge
+# request to hypercharge
 xmlString = Hypercharge::Schema::Fixture.xml 'request/sale'
-// or as parsed json
+# or as parsed json
 jsonData = Hypercharge::Schema::Fixture.json 'request/sale'
-// response from hypercharge
+# response from hypercharge
 xmlString = Hypercharge::Schema::Fixture.xml 'response/sale'
 ```
 
