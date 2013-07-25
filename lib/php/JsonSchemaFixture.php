@@ -8,4 +8,5 @@ class JsonSchemaFixture {
 	static function response($file) {
 		return file_get_contents(dirname(dirname(__DIR__)).'/test/fixtures/responses/'. $file);
 	}
+	// TODO notification
 }

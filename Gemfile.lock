@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    hypercharge-schema (1.24.2)
+    hypercharge-schema (1.24.3)
       json-schema (~> 1.1.1)
 
 GEM
