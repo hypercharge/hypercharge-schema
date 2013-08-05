@@ -9,6 +9,7 @@
     "remote_ip":"127.0.0.1",
     "amount":5000,
     "currency":"EUR",
+    "card_holder":"Emil Example",
     "customer_email":"manfred.test@example.com",
     "billing_address":{
       "first_name":"Manfred",

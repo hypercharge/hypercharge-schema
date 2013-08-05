@@ -35,6 +35,10 @@
           "required":true,
           "extends" : "types.json#/currency"
         },
+        "card_holder": {
+          "required":true,
+          "extends" : "types.json#/card_holder"
+        },
         "customer_email": {
           "required":true,
           "extends" : "types.json#/customer_email"

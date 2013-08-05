@@ -9,6 +9,7 @@
     <last_name>Test</last_name>
     <zip_code>12345</zip_code>
   </billing_address>
+  <card_holder>Emil Example</card_holder>
   <currency>EUR</currency>
   <customer_email>manfred.test@example.com</customer_email>
   <customer_phone>+49301234567</customer_phone>
