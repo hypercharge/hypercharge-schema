@@ -1,0 +1,8 @@
+{
+	"type": "PaginatedCollection",
+	"entries_base_type": "PaymentTransaction",
+	"entries": [],
+	"total_entries": 0,
+	"current_page": 1,
+	"per_page": 50
+}

@@ -1,0 +1,7 @@
+{
+	"error": {
+		"code": 340,
+		"message": "Validation failed: Amount InputDataInvalidError: 'recurring_schedule[amount]' is invalid",
+		"user_message": "Please check input data for errors!"
+	}
+}

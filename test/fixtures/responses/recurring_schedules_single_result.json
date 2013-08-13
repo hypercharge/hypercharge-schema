@@ -1,0 +1,21 @@
+{
+	"type": "PaginatedCollection",
+	"total_entries": 1,
+	"current_page": 1,
+	"per_page": 50,
+	"entries_base_type": "RecurringSchedule",
+	"entries": [
+		{
+			"timestamp": "2014-05-10T12:00:00Z",
+			"payment_transaction_unique_id": "0293069be5a868ae69290e8a0eff72b3",
+			"currency": "USD",
+			"unique_id": "0293069be5a868ae69290e8a0eff72b3",
+			"interval": "monthly",
+			"active": true,
+			"start_date": "2014-06-10",
+			"end_date": "2015-05-10",
+			"type": "DateRecurringSchedule",
+			"amount": 500
+		}
+	]
+}

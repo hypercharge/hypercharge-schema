@@ -89,6 +89,28 @@ class TypesSpecs
     end
   end
 
+  describe 'v2_amount' do
+
+    it 'must be present' do
+      subject.delete('amount')
+      JSON::Validator.validate(schema_path, subject).must_equal !required
+    end
+
+    it 'must be an integer' do
+      subject['amount'] = 'one'
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont allow 0' do
+      subject['amount'] = 0
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont allow negaitive values' do
+      subject['amount'] = -1
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+  end
 
   describe 'currency' do
     it 'must be present' do
@@ -719,8 +741,18 @@ class TypesSpecs
         JSON::Validator.validate(schema_path, subject).must_equal false
       end
 
-      it 'wont be 0' do
+      it 'must allow 0' do
         subject[root_key]['recurring_schedule']['max_retries'] = 0
+        JSON::Validator.validate(schema_path, subject).must_equal true
+      end
+
+      it 'must allow 10' do
+        subject[root_key]['recurring_schedule']['max_retries'] = 10
+        JSON::Validator.validate(schema_path, subject).must_equal true
+      end
+
+      it 'wont allow 11' do
+        subject[root_key]['recurring_schedule']['max_retries'] = 11
         JSON::Validator.validate(schema_path, subject).must_equal false
       end
 
@@ -1135,6 +1167,217 @@ class TypesSpecs
 
     it 'wont allow 32 length hex uppercase' do
       subject[root_key][attr_name] = '71818FE4F7D74531AFC9BF7DB801C221'
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+  end
+
+  describe 'v2_unique_id' do
+    it 'must be present' do
+      subject.delete(attr_name)
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont be empty' do
+      subject[attr_name] = ''
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'must allow 32 length hex lowercase' do
+      subject[attr_name] = '71818fe4f7d74531afc9bf7db801c221'
+      JSON::Validator.validate(schema_path, subject).must_equal true
+    end
+
+    it 'wont allow 31 length hex lowercase' do
+      subject[attr_name] = '71818fe4f7d74531afc9bf7db801c22'
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont allow 33 length hex lowercase' do
+      subject[attr_name] = '71818fe4f7d74531afc9bf7db801c2211'
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont allow 32 non hex lowercase' do
+      subject[attr_name] = '71818ge4f7d74531afc9bf7db801c221'
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont allow 32 length hex uppercase' do
+      subject[attr_name] = '71818FE4F7D74531AFC9BF7DB801C221'
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+  end
+
+  describe 'date' do
+    it 'presence' do
+      subject.delete(attr_name)
+      JSON::Validator.validate(schema_path, subject).must_equal !required
+    end
+
+    it 'wont be empty' do
+      subject[attr_name] = ''
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont be nil' do
+      subject[attr_name] = nil
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont allow 2013-8-1' do
+      subject[attr_name] = '2013-8-1'
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'must allow 2013-08-01' do
+      subject[attr_name] = '2013-08-01'
+      JSON::Validator.validate(schema_path, subject).must_equal true
+    end
+
+    it 'wont allow other formats' do
+      subject[attr_name] = "2013/12/01"
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont allow "may 12 2013"' do
+      subject[attr_name] = 'may 12 2013'
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont allow impossible date' do
+      subject['start_date'] = "2013-22-01"
+      JSON::Validator.validate(schema_path, subject).must_equal false
+
+      subject['start_date'] = "2013-01-41"
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+  end
+
+  describe 'expiring_notification_time' do
+    it 'presence' do
+      subject.delete(attr_name)
+      JSON::Validator.validate(schema_path, subject).must_equal !required
+    end
+
+    it 'wont be empty' do
+      subject[attr_name] = ''
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont be nil' do
+      subject[attr_name] = nil
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont allow 0' do
+      subject[attr_name] = 0
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'must allow 1' do
+      subject[attr_name] = 1
+      JSON::Validator.validate(schema_path, subject).must_equal true
+    end
+
+    it 'must allow 100' do
+      subject[attr_name] = 100
+      JSON::Validator.validate(schema_path, subject).must_equal true
+    end
+
+    it 'wont allow 101' do
+      subject[attr_name] = 101
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'must be postive' do
+      subject[attr_name] = -1
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+  end
+
+  describe 'active' do
+    it 'presence' do
+      subject.delete(attr_name)
+      JSON::Validator.validate(schema_path, subject).must_equal !required
+    end
+
+    it 'wont be empty' do
+      subject[attr_name] = ''
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont be nil' do
+      subject[attr_name] = nil
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont allow 0' do
+      subject[attr_name] = 0
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'must allow true' do
+      subject[attr_name] = true
+      JSON::Validator.validate(schema_path, subject).must_equal true
+    end
+
+    it 'must allow false' do
+      subject[attr_name] = false
+      JSON::Validator.validate(schema_path, subject).must_equal true
+    end
+  end
+
+  describe 'enabled' do
+    it 'presence' do
+      subject.delete(attr_name)
+      JSON::Validator.validate(schema_path, subject).must_equal !required
+    end
+
+    it 'wont be empty' do
+      subject[attr_name] = ''
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont be nil' do
+      subject[attr_name] = nil
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont allow 0' do
+      subject[attr_name] = 0
+      JSON::Validator.validate(schema_path, subject).must_equal false
+    end
+
+    it 'must allow true' do
+      subject[attr_name] = true
+      JSON::Validator.validate(schema_path, subject).must_equal true
+    end
+
+    it 'must allow false' do
+      subject[attr_name] = false
+      JSON::Validator.validate(schema_path, subject).must_equal true
+    end
+  end
+
+  describe 'recurring_interval' do
+    # code dublication with 'recurring_schedule.interval' because v1 and v2 mix
+    it 'presence' do
+      subject.delete(attr_name)
+      JSON::Validator.validate(schema_path, subject).must_equal !required
+    end
+
+    it 'must allow "weekly", "monthly", "anually"' do
+      ["weekly", "monthly", "anually"].each do |interval|
+        subject[attr_name] = interval
+        JSON::Validator.validate(schema_path, subject).must_equal true
+      end
+    end
+
+    it 'wont allow other values' do
+      subject[attr_name] = 'once'
+      JSON::Validator.validate(schema_path, subject).must_equal false
+
+      subject[attr_name] =  1
       JSON::Validator.validate(schema_path, subject).must_equal false
     end
   end

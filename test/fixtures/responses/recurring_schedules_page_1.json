@@ -1,0 +1,93 @@
+{
+	"type": "PaginatedCollection",
+	"total_entries": 10,
+	"current_page": 1,
+	"per_page": 7,
+	"entries_base_type": "RecurringSchedule",
+	"entries": [
+		{
+			"timestamp": "2014-05-10T12:00:00Z",
+			"payment_transaction_unique_id": "0293069be5a868ae69290e8a0eff72b3",
+			"currency": "USD",
+			"unique_id": "0293069be5a868ae69290e8a0eff72b3",
+			"interval": "monthly",
+			"active": true,
+			"start_date": "2014-06-10",
+			"end_date": "2015-05-10",
+			"type": "DateRecurringSchedule",
+			"amount": 500
+		},
+		{
+			"timestamp": "2014-05-11T12:00:00Z",
+			"payment_transaction_unique_id": "0763d2761d004a86f24807594610900b",
+			"currency": "USD",
+			"unique_id": "0763d2761d004a86f24807594610900b",
+			"interval": "monthly",
+			"active": true,
+			"start_date": "2014-06-11",
+			"end_date": "2015-05-11",
+			"type": "DateRecurringSchedule",
+			"amount": 500
+		},
+		{
+			"timestamp": "2014-05-12T12:00:00Z",
+			"payment_transaction_unique_id": "22cd57da4a1c36652b6eb3e5b7587b03",
+			"currency": "USD",
+			"unique_id": "22cd57da4a1c36652b6eb3e5b7587b03",
+			"interval": "monthly",
+			"active": true,
+			"start_date": "2014-06-12",
+			"end_date": "2015-05-12",
+			"type": "DateRecurringSchedule",
+			"amount": 500
+		},
+		{
+			"timestamp": "2014-05-13T12:00:00Z",
+			"payment_transaction_unique_id": "d07061244f5a468271bf27486ccfcaa2",
+			"currency": "USD",
+			"unique_id": "d07061244f5a468271bf27486ccfcaa2",
+			"interval": "monthly",
+			"active": true,
+			"start_date": "2014-06-13",
+			"end_date": "2015-05-13",
+			"type": "DateRecurringSchedule",
+			"amount": 500
+		},
+		{
+			"timestamp": "2014-05-14T12:00:00Z",
+			"payment_transaction_unique_id": "ff700580d3c19e1f1d8f6364c1c7d707",
+			"currency": "USD",
+			"unique_id": "ff700580d3c19e1f1d8f6364c1c7d707",
+			"interval": "monthly",
+			"active": true,
+			"start_date": "2014-06-14",
+			"end_date": "2015-05-14",
+			"type": "DateRecurringSchedule",
+			"amount": 500
+		},
+		{
+			"timestamp": "2014-05-15T12:00:00Z",
+			"payment_transaction_unique_id": "f3268a2e9ae4d389d92d4503c480c67d",
+			"currency": "USD",
+			"unique_id": "f3268a2e9ae4d389d92d4503c480c67d",
+			"interval": "monthly",
+			"active": true,
+			"start_date": "2014-06-15",
+			"end_date": "2015-05-15",
+			"type": "DateRecurringSchedule",
+			"amount": 500
+		},
+		{
+			"timestamp": "2014-05-16T12:00:00Z",
+			"payment_transaction_unique_id": "c4e9afeddc0c7dd907433187ac86e1bd",
+			"currency": "USD",
+			"unique_id": "c4e9afeddc0c7dd907433187ac86e1bd",
+			"interval": "monthly",
+			"active": true,
+			"start_date": "2014-06-16",
+			"end_date": "2015-05-16",
+			"type": "DateRecurringSchedule",
+			"amount": 500
+		}
+	]
+}

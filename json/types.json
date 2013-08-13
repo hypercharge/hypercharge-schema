@@ -124,6 +124,11 @@
     "type" : "string",
     "enum": ["ABN_AMRO", "POSTBANK", "RABOBANK", "FORTIS", "FORTIS_TEST", "SNS_BANK"]
   },
+  "date": {
+    "description":"Date of format 'YYYY-MM-DD' e.g. '2014-05-24'",
+    "type":"string",
+    "pattern":"^20\\d{2}-(0|1)\\d-(0|1|2|3)\\d$"
+  },
 
   "address": {
     "type": "object",
@@ -289,32 +294,27 @@
     "properties":{
       "start_date":{
         "description":"Start date to begin with recurring",
-        "type":"string",
-        "pattern":"^20\\d{2}-(0|1)\\d-(0|1|2|3)\\d$",
-        "required":true
+        "required":true,
+        "extends": "#/date"
       },
       "end_date":{
         "description":"End date to stop the recurring schedule",
-        "type":"string",
-        "pattern":"^20\\d{2}-(0|1)\\d-(0|1|2|3)\\d$"
+        "extends": "#/date"
       },
       "amount":{
-        "description" : "Amount of the payment in cents, must be > 0",
-        "type" : "integer",
         "required":true,
-        "minimum": 1,
-        "exclusiveMinimum": false
+        "extends": "#/amount"
       },
       "interval":{
         "description": "recurring interval. must be one of weekly, monthly, anually",
-        "type" : "string",
         "required" : true,
+        "type" : "string",
         "enum": ["weekly", "monthly", "anually"]
       },
       "max_retries":{
         "description" : "number of times to retry the rebilling before giving up",
         "type" : "integer",
-        "minimum": 1,
+        "minimum": 0,
         "maximum": 10,
         "exclusiveMinimum": false,
         "exclusiveMaximum": false

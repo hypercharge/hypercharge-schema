@@ -24,6 +24,15 @@ class Minitest::Spec
     JSON.parse(IO.read(File.expand_path("../../fixtures/requests/#{name}.json", __FILE__)))
   end
 
+  def self.wont_allow_additional_properties
+    describe 'root' do
+      it 'wont allow additionalProperties' do
+        subject['notInSchema'] = 1
+        JSON::Validator.validate(schema_path, subject).must_equal false
+      end
+    end
+  end
+
   def self.root_wont_allow_additional_properties
     describe 'root' do
       it 'wont allow additionalProperties' do

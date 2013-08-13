@@ -1,6 +1,6 @@
 # coding: utf-8
-require File.expand_path('../lib/ruby/hypercharge/schema/version.rb', __FILE__)
 lib = File.expand_path('../lib/ruby/', __FILE__)
+require File.expand_path('hypercharge/schema/version.rb', lib)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
