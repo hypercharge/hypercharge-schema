@@ -10,7 +10,7 @@ module Hypercharge
 
 		# validates a hash with JSON-Schema
 		def self.validate(type, data)
-			JSON::Validator.fully_validate(schema_path_for(type), data)
+			JSON::Validator.fully_validate(schema_path_for(type), data, :version => :draft3)
 		end
 
 		# returns the path for a JSON-Schema

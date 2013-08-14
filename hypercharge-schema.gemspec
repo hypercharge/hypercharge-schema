@@ -17,13 +17,11 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib/ruby/"]
 
-  spec.add_runtime_dependency 'json-schema', '~>1.1.1'
+  spec.add_runtime_dependency 'json-schema', '~>2.1.3'
 
   spec.add_development_dependency "bundler", "~>1.3"
-  #spec.add_development_dependency 'autoparse', '~>0.3.3'
-  spec.add_development_dependency "minitest", '~>5.0.4'
+  spec.add_development_dependency "minitest", '>=4.7.5'
   spec.add_development_dependency 'json'
-  spec.add_development_dependency 'turn'
   spec.add_development_dependency 'debugger'
 
 end
