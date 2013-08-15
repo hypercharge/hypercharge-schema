@@ -1312,9 +1312,14 @@ class TypesSpecs
       validate(schema_path, subject).must_equal false
     end
 
-    it 'wont allow 0' do
+    it 'must allow 0' do
       subject[attr_name] = 0
-      validate(schema_path, subject).must_equal false
+      validate(schema_path, subject).must_equal true
+    end
+
+    it 'must allow 1' do
+      subject[attr_name] = 1
+      validate(schema_path, subject).must_equal true
     end
 
     it 'must allow true' do
@@ -1328,7 +1333,7 @@ class TypesSpecs
     end
   end
 
-  describe 'enabled' do
+  describe 'boolean' do
     it 'presence' do
       subject.delete(attr_name)
       validate(schema_path, subject).must_equal !required
@@ -1344,9 +1349,14 @@ class TypesSpecs
       validate(schema_path, subject).must_equal false
     end
 
-    it 'wont allow 0' do
+    it 'must allow 0' do
       subject[attr_name] = 0
-      validate(schema_path, subject).must_equal false
+      validate(schema_path, subject).must_equal true
+    end
+
+    it 'must allow 1' do
+      subject[attr_name] = 1
+      validate(schema_path, subject).must_equal true
     end
 
     it 'must allow true' do
@@ -1357,6 +1367,11 @@ class TypesSpecs
     it 'must allow false' do
       subject[attr_name] = false
       validate(schema_path, subject).must_equal true
+    end
+
+    it 'wont allow "true"' do
+      subject[attr_name] = "true"
+      validate(schema_path, subject).must_equal false
     end
   end
 
@@ -1379,6 +1394,100 @@ class TypesSpecs
       validate(schema_path, subject).must_equal false
 
       subject[attr_name] =  1
+      validate(schema_path, subject).must_equal false
+    end
+  end
+
+  describe 'page' do
+    it 'presence' do
+      subject.delete(attr_name)
+      validate(schema_path, subject).must_equal !required
+    end
+
+    it 'wont allow -1' do
+      subject[attr_name] = -1
+      validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont allow 0' do
+      subject[attr_name] = 0
+      validate(schema_path, subject).must_equal false
+    end
+
+    it 'must allow 1' do
+      subject[attr_name] = 1
+      validate(schema_path, subject).must_equal true
+    end
+
+    it 'must allow 100000' do
+      subject[attr_name] = 100000
+      validate(schema_path, subject).must_equal true
+    end
+
+    it 'wont allow 100001' do
+      subject[attr_name] = 100001
+      validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont allow "1"' do
+      subject[attr_name] = "1"
+      validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont allow ""' do
+      subject[attr_name] = ""
+      validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont allow "foo"' do
+      subject[attr_name] = "foo"
+      validate(schema_path, subject).must_equal false
+    end
+  end
+
+  describe 'per_page' do
+    it 'presence' do
+      subject.delete(attr_name)
+      validate(schema_path, subject).must_equal !required
+    end
+
+    it 'wont allow -1' do
+      subject[attr_name] = -1
+      validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont allow 0' do
+      subject[attr_name] = 0
+      validate(schema_path, subject).must_equal false
+    end
+
+    it 'must allow 1' do
+      subject[attr_name] = 1
+      validate(schema_path, subject).must_equal true
+    end
+
+    it 'must allow 1000' do
+      subject[attr_name] = 1000
+      validate(schema_path, subject).must_equal true
+    end
+
+    it 'wont allow 1001' do
+      subject[attr_name] = 1001
+      validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont allow "1"' do
+      subject[attr_name] = "1"
+      validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont allow ""' do
+      subject[attr_name] = ""
+      validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont allow "foo"' do
+      subject[attr_name] = "foo"
       validate(schema_path, subject).must_equal false
     end
   end

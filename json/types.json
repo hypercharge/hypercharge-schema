@@ -378,5 +378,8 @@
     "maximum": 1000,
     "exclusiveMinimum": false,
     "exclusiveMaximum": false
+  },
+  "boolean": {
+    "enum": [true, false, 0, 1]
   }
 }
