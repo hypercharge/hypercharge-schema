@@ -8,10 +8,10 @@
       "extends" : "types.json#/amount"
     },
     "start_date": {
-      "extends" : "types.json#/recurring_schedule/properties/start_date"
+      "extends" : "types.json#/date"
     },
     "end_date": {
-      "extends" : "types.json#/recurring_schedule/properties/end_date"
+      "extends" : "types.json#/date"
     },
     "interval" : {
       "extends" : "types.json#/recurring_schedule/properties/interval"

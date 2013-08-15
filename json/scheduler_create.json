@@ -15,11 +15,13 @@
       "extends" : "types.json#/amount"
     },
     "start_date": {
+      "description":"Start date to begin with scheduling transactions",
       "required":true,
-      "extends" : "types.json#/recurring_schedule/properties/start_date"
+      "extends" : "types.json#/date"
     },
     "end_date": {
-      "extends" : "types.json#/recurring_schedule/properties/end_date"
+      "description":"End date to stop with scheduling transactions",
+      "extends" : "types.json#/date"
     },
     "interval" : {
       "required":true,

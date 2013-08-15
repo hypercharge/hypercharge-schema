@@ -1,9 +1,9 @@
 require 'test_helper'
 
 
-describe 'RecurringSchedule.create JSON Schema' do
-  let(:schema_path){ schema_path_for('recurring_schedule_create') }
-  subject{ fixture('recurring_schedule_create') }
+describe 'Scheduler.create JSON Schema' do
+  let(:schema_path){ schema_path_for('scheduler_create') }
+  subject{ fixture('scheduler_create') }
 
   wont_allow_additional_properties
   spec_attribute 'payment_transaction_unique_id', spec: 'v2_unique_id', required: true
@@ -15,9 +15,9 @@ describe 'RecurringSchedule.create JSON Schema' do
   spec_attribute 'active'
 end
 
-describe 'RecurringSchedule.update JSON Schema' do
-  let(:schema_path){ schema_path_for('recurring_schedule_update') }
-  subject{ fixture('recurring_schedule_update') }
+describe 'Scheduler.update JSON Schema' do
+  let(:schema_path){ schema_path_for('scheduler_update') }
+  subject{ fixture('scheduler_update') }
 
   wont_allow_additional_properties
   spec_attribute 'amount'    , spec: 'v2_amount'
