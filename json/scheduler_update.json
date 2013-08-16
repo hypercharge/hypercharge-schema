@@ -30,10 +30,6 @@
     "active":{
       "description": "true: Scheduler is on. false: Scheduler is turned off but still visible.",
       "extends" : "types.json#/boolean"
-    },
-    "enabled":{
-      "description": "false: RecurringSchedule is marked 'deleted' and invisible to merchant from that on.",
-      "extends" : "types.json#/boolean"
     }
   }
 }

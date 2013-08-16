@@ -4,6 +4,5 @@
 	"end_date"  :"2015-08-30",
 	"interval":"monthly",
 	"expiring_notification_time":30,
-	"active" :false,
-	"enabled":true
-}
+	"active" :false
+	}
