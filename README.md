@@ -2,6 +2,8 @@
 
 json-schema for hypercharge payment request data.
 
+[![Build Status](https://travis-ci.org/hypercharge/hypercharge-schema.png?branch=master)](https://travis-ci.org/hypercharge/hypercharge-schema)
+
 ## Fixtures
 
 There is a rather complete set of hypercharge API xml requests, respsonses and notifications provided as fixtures in ```/test/fixtures/```
