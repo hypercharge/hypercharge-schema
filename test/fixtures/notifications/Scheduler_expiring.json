@@ -1,7 +1,7 @@
 {
-   "schedule_unique_id":"26aa150ee68b1b2d6758a0e6c44fce4c",
-   "schedule_end_date":"2013-01-21 00:00:00",
-   "schedule_status":"expiring",
-   "notification_type":"recurring_schedule",
-   "signature":"c5219b3d385e74496b2b48a5497b347e102849f10eacd25b062f823b"
+  "recurring_schedule_unique_id":"f433a0bf7c9681f39b82ace9d2af7e96",
+  "recurring_schedule_end_date":"2015-01-01",
+  "recurring_schedule_status":"expiring",
+  "notification_type":"RecurringSchedule",
+  "signature":"9b86a77e3095d82c78655831617f4f5b74024f68d55f233047678b04c4b02b945e317374b4912aa1c288762b57832e9dd10288492aaa338c91f79ed1eb90ba80"
 }
