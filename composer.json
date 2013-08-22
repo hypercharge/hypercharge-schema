@@ -14,7 +14,7 @@
 			"name": "Luzifer Altenberg",
 			"email": "luzifer@atomgas.de",
 			"role": "Developer"
-		},
+		}
 	],
 	"require": {
 		"php": ">=5.3"
