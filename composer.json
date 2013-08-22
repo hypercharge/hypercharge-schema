@@ -4,6 +4,18 @@
 	"keywords": ["hypercharge", "payment", "api", "json", "schema"],
 	"hompage":"http://hypercharge.net",
 	"license":"MIT",
+	"authors": [
+		{
+			"name": "Jan Mentzel",
+			"email": "jan@islandofwaiting.de",
+			"role": "Developer"
+		},
+		{
+			"name": "Luzifer Altenberg",
+			"email": "luzifer@atomgas.de",
+			"role": "Developer"
+		},
+	],
 	"require": {
 		"php": ">=5.3"
 		,"hypercharge/json-schema-php" : "~1.3"

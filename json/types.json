@@ -293,17 +293,22 @@
     "additionalProperties":false,
     "properties":{
       "start_date":{
-        "description":"Start date to begin with recurring",
+        "description":"Start date to begin with recurring; format 'YYYY-MM-DD' e.g. '2014-05-24'",
         "required":true,
-        "extends": "#/date"
+        "type":"string",
+        "pattern":"^20\\d{2}-(0|1)\\d-(0|1|2|3)\\d$"
       },
       "end_date":{
-        "description":"End date to stop the recurring schedule",
-        "extends": "#/date"
+        "description":"End date to stop the recurring schedule; format 'YYYY-MM-DD' e.g. '2017-10-15'",
+        "type":"string",
+        "pattern":"^20\\d{2}-(0|1)\\d-(0|1|2|3)\\d$"
       },
       "amount":{
+        "description" : "Amount of the payment in cents, must be > 0",
         "required":true,
-        "extends": "#/amount"
+        "type" : "integer",
+        "minimum": 1,
+        "exclusiveMinimum": false
       },
       "interval":{
         "description": "recurring interval. must be one of weekly, monthly, anually",
