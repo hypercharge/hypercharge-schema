@@ -1,0 +1,11 @@
+# jan: no multi language support in travis atm.  :-(
+#      my question at google groups:
+#      https://groups.google.com/forum/?hl=de#!topic/travis-ci/3pzCgvxWZAo
+#
+language: php
+php:
+  - 5.3
+  - 5.4
+  - 5.5
+before_script: composer install
+script: php test/php/all.php

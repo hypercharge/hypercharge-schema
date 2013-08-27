@@ -6,26 +6,14 @@
 var util = require('util')
 var fs = require('fs')
 var assert = require('chai').assert
-var Validator = require('jsonschema').Validator
 
+var Schema = require('../../../hypercharge-schema').Schema;
 
 describe('MobilePayment', function () {
-	var json, validator, schema, paymentSchema, paymentRequest, payment;
+	var validator, schema, paymentRequest, payment;
 
 	beforeEach(function () {
-		if(!json) {
-			json = {
-				schema  :fs.readFileSync('json/MobilePayment.json')
-				,paymentSchema :fs.readFileSync('json/Payment.json')
-				,types  :fs.readFileSync('json/types.json')
-				,request:fs.readFileSync('test/fixtures/MobilePayment.json')
-			}
-		}
-		validator = new Validator()
-	  schema            = JSON.parse(json.schema)
-	  paymentRequest    = JSON.parse(json.request)
-	  validator.addSchema(JSON.parse(json.paymentSchema), '/Payment.json')
-		validator.addSchema(JSON.parse(json.types), '/types.json')
+		paymentRequest = Schema.Fixture.json('requests/MobilePayment')
 		payment = paymentRequest.payment
 	})
 
@@ -36,7 +24,8 @@ describe('MobilePayment', function () {
 		validate(payment, false)
 	}
 	function validate(payment, bool) {
-		var result = validator.validate(payment, schema)
+		var result = Schema.validate('MobilePayment', payment);
+		if(result.valid != bool) console.log(util.inspect(result.errors, { showHidden: false, depth: 1 }));
 		assert.strictEqual(result.valid, bool, util.inspect(result.errors, { showHidden: false, depth: 1 }))
 	}
 
@@ -228,8 +217,12 @@ describe('MobilePayment', function () {
 			delete(payment.billing_address.country)
 			assertNotValid(paymentRequest)
 		})
-		it('present state invalid', function () {
+		it('present state valid', function () {
 			payment.billing_address.state = 'CA'
+			assertValid(paymentRequest)
+		})
+		it('missing state valid', function () {
+			delete(payment.billing_address.state)
 			assertValid(paymentRequest)
 		})
 		it('wrong state invalid', function () {

@@ -1,27 +1,28 @@
 {
-  "author": "Jan Mentzel <jan@hypercharge.net>",
   "name": "hypercharge-schema",
+  "version": "1.24.5",
+  "author": "Jan Mentzel <jan@hypercharge.net>",
   "dependencies": {
+    "jsonschema": "git://github.com/hypercharge/jsonschema.git#master"
   },
-  "main": "./lib",
+  "main": "./lib/js/hypercharge.js",
   "devDependencies": {
     "mocha": "~1.8.2",
-    "chai": "~1.5.0",
-    "jsonschema": "git://github.com/hypercharge/jsonschema.git#master"
+    "chai": "~1.5.0"
   },
   "optionalDependencies": {},
   "engines": {
-    "node": "*"
+    "node": ">=0.8"
   },
   "keywords": [
     "payment"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hypercharge/json-schema.git"
+    "url": "git://github.com/hypercharge/hypercharge-schema.git"
   },
   "description": "JSON Schemas for validation of hypercharge payment gateway and WPF requests",
   "scripts": {
-    "test": "./node_modules/.bin/mocha -R spec"
+    "test": "./node_modules/.bin/mocha -R spec test/js/*.js"
   }
 }
