@@ -41,3 +41,12 @@ describe 'Scheduler.index get params' do
   spec_attribute 'end_date_to'    , spec: 'date'
   spec_attribute 'active'         , spec: 'boolean'
 end
+
+describe 'Scheduler_Transactions.index get params' do
+  let(:schema_path){ schema_path_for('scheduler_transactions_index') }
+  subject{ fixture('scheduler_transactions_index_get_params') }
+
+  wont_allow_additional_properties
+  spec_attribute 'page'
+  spec_attribute 'per_page'
+end
