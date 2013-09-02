@@ -14,9 +14,11 @@
       "extends" : "types.json#/date"
     },
     "interval" : {
+      "required": false,
       "extends" : "types.json#/recurring_schedule/properties/interval"
     },
     "max_retries": {
+      "required": false,
       "extends" : "types.json#/recurring_schedule/properties/max_retries"
     },
     "expiring_notification_time": {

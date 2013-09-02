@@ -37,6 +37,16 @@ class JsonSchemaValidator {
 	}
 
 	/**
+	* @param string $schemaName  e.g. "MobilePayment" for /json/MobilePayment.json  or "sale" for /json/sale.json
+	* @param Object $object the instance to validate against the json schema
+	* @return mixed array containing errors or false
+	*/
+	static function validate($schemaName, $object) {
+		$validator = new JsonSchemaValidator($schemaName);
+		return $validator->check($object);
+	}
+
+	/**
 	* doesn't check if schema file exists
 	* @param string $type e.g. 'sale', 'authorize', 'capture', 'void', ...
 	* @return string absolute path to schema file
