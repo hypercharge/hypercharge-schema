@@ -1,6 +1,6 @@
 <?php
 require_once dirname(dirname(__DIR__)).'/vendor/autoload.php';
-require_once dirname(dirname(__DIR__)).'/vendor/vierbergenlars/simpletest/autorun.php';
+require_once dirname(dirname(__DIR__)).'/vendor/simpletest/simpletest/autorun.php';
 
 class SchemaTestCase extends UnitTestCase {
 
