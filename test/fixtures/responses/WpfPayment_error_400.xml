@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment>
+  <status>error</status>
+  <code>400</code>
+  <technical_message>payment not found.</technical_message>
+  <message>Something went wrong, please contact support!</message>
+</payment>
