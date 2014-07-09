@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <payment_response>
   <transaction_type>sale</transaction_type>
-  <status>refunded</status>
-  <unique_id>1935d1c8f7bb19e1a9e04b270eaf9f80</unique_id>
+  <status>approved</status>
+  <unique_id>61c06cf0a03d01307dde542696cde09d</unique_id>
   <transaction_id>YourId---51a868de76def</transaction_id>
   <technical_message>TESTMODE: No real money will be transferred!</technical_message>
   <message>TESTMODE: No real money will be transferred!</message>
