@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment_response>
+  <status>error</status>
+  <code>460</code>
+  <technical_message>Transaction not found!</technical_message>
+  <message>Something went wrong, please contact support!</message>
+</payment_response>
