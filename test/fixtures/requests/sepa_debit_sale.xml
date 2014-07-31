@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <payment_transaction>
-  <transaction_type>purchase_on_account</transaction_type>
+  <transaction_type>sepa_debit_sale</transaction_type>
   <transaction_id>145236</transaction_id>
+  <wire_reference_id>ABCD1234EF</wire_reference_id>
+  <bank_account_holder>Manfred Test</bank_account_holder>
+  <iban>DE18210501700012345678</iban>
+  <bic>PBNKDEFF</bic>
+  <sepa_mandate_id>1234567890abcdef</sepa_mandate_id>
+  <sepa_mandate_signature_date>2014-06-24</sepa_mandate_signature_date>
   <usage>40208 concert tickets</usage>
   <remote_ip>127.0.0.1</remote_ip>
-  <wire_reference_id>ABCD1234EF</wire_reference_id>
-  <company_name>Acme Inc.</company_name>
-  <bank_account_holder>Manfred Test</bank_account_holder>
-  <bank_account_number>1290701</bank_account_number>
-  <bank_number>20050550</bank_number>
-  <iban>DE68210501700012345678</iban>
-  <bic>PBNKDEFF</bic>
   <amount>5000</amount>
   <currency>EUR</currency>
   <customer_email>manfred.test@example.com</customer_email>
@@ -23,15 +22,7 @@
     <city>Berlin</city>
     <country>DE</country>
   </billing_address>
-  <shipping_address>
-    <first_name>Manfred</first_name>
-    <last_name>Test</last_name>
-    <address1>Test Str. 123</address1>
-    <zip_code>12345</zip_code>
-    <city>Berlin</city>
-    <country>DE</country>
-  </shipping_address>
   <risk_params>
-    <birthday>1978-03-03</birthday>
+    <birthday>1968-04-01</birthday>
   </risk_params>
 </payment_transaction>

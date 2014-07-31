@@ -124,10 +124,36 @@
     "type" : "string",
     "enum": ["ABN_AMRO", "POSTBANK", "RABOBANK", "FORTIS", "FORTIS_TEST", "SNS_BANK"]
   },
+  "iban" : {
+    "description" : "customers international bank account number (SEPA)",
+    "type": "string",
+    "pattern": "^[a-zA-Z]{2}\\d{2}[a-zA-Z0-9]{4}[a-zA-Z0-9]{7,23}$",
+    "minLength": 15,
+    "maxLength": 31
+  },
+  "bic" : {
+    "description" : "Business Identifier Codes / Swift ID (SEPA)",
+    "type": "string",
+    "pattern": "^[a-zA-Z]{6}[a-zA-Z0-9]{2}([a-zA-Z0-9]{3})?$",
+    "minLength": 8,
+    "maxLength": 11
+  },
+  "sepa_mandate_id" : {
+    "description" : "signed mandate ID between merchant and customer",
+    "type": "string",
+    "minLength": 1,
+    "maxLength": 35
+  },
   "date": {
-    "description":"Date of format 'YYYY-MM-DD' e.g. '2014-05-24'",
+    "description":"Date of format 'YYYY-MM-DD' years 20xx only e.g. '2014-05-24'",
     "type":"string",
     "pattern":"^20\\d{2}-(0|1)\\d-(0|1|2|3)\\d$"
+  },
+  "company_name": {
+    "description": "Company name in case of B2B. Contact support for further information.",
+    "type": "string",
+    "minLength":1,
+    "maxLength":255
   },
 
   "address": {
@@ -283,6 +309,11 @@
         "type": "string",
         "minLength": 1,
         "maxLength": 128
+      },
+      "birthday":{
+        "description":"Date of format 'YYYY-MM-DD' years 19xx and 20xx e.g. '1956-12-30'",
+        "type":"string",
+        "pattern":"^(19|20)\\d{2}-(0|1)\\d-(0|1|2|3)\\d$"
       }
     }
   },

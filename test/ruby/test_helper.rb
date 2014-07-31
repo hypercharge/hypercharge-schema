@@ -6,7 +6,7 @@ require 'minitest/autorun'
 require 'json'
 require 'json-schema'
 require 'types_specs'
-
+require 'debugger'
 
 class FixtureInvalidError < StandardError
 end

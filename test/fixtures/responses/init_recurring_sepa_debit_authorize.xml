@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment_response>
+<transaction_type>init_recurring_sepa_debit_authorize</transaction_type>
+<status>pending_async</status>
+<unique_id>011e8d5cc1a56058cc50440c265f5063</unique_id>
+<transaction_id>145236</transaction_id>
+<mode>live</mode>
+<timestamp>2007-08-30T17:46:11Z</timestamp>
+<descriptor>Descriptor One</descriptor>
+  <wire_reference_id>ABCD1234EF</wire_reference_id>
+  <amount>5000</amount>
+  <currency>EUR</currency>
+</payment_response>

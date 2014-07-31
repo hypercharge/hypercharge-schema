@@ -14,10 +14,18 @@ describe 'PurchaseOnAccount JSON Schema' do
   spec_attribute 'amount'
   spec_attribute 'currency'
 
-  spec_attribute  'wire_reference_id'
+  spec_attribute 'wire_reference_id'  , required: false
+  spec_attribute 'company_name'       , required: false
+  spec_attribute 'bank_account_holder', required: false
+  spec_attribute 'bank_account_number', required: false
+  spec_attribute 'bank_number'        , required: false
+  spec_attribute 'iban'               , required: false
+  spec_attribute 'bic'                , required: false
 
   spec_attribute 'customer_email', required: true
   spec_attribute 'customer_phone'
   spec_attribute 'billing_address', required: true
+  spec_attribute 'shipping_address', required: false, spec: 'billing_address'
+
   spec_attribute 'risk_params'
 end

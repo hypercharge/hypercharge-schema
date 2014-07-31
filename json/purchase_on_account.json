@@ -47,8 +47,36 @@
           "required":false,
           "extends" : "types.json#/customer_phone"
         },
+        "company_name": {
+          "required": false,
+          "extends" : "types.json#/company_name"
+        },
+        "bank_account_holder": {
+          "required": false,
+          "extends" : "types.json#/bank_account_holder"
+        },
+        "bank_account_number": {
+          "required": false,
+          "extends" : "types.json#/bank_account_number"
+        },
+        "bank_number": {
+          "required": false,
+          "extends" : "types.json#/bank_number"
+        },
+        "iban": {
+          "required": false,
+          "extends" : "types.json#/iban"
+        },
+        "bic" : {
+          "required": false,
+          "extends" : "types.json#/bic"
+        },
         "billing_address": {
           "required": true,
+          "extends": "types.json#/address"
+        },
+        "shipping_address": {
+          "required": false,
           "extends": "types.json#/address"
         },
         "risk_params" : {

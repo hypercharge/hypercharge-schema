@@ -1,5 +1,5 @@
 {
-  "description" : "Hypercharge ideal_sale Transaction request",
+  "description" : "Hypercharge sepa_debit_sale Transaction request",
   "type":"object",
   "$schema": "http://json-schema.org/draft-03/schema",
   "additionalProperties":false,
@@ -10,10 +10,10 @@
       "additionalProperties":false,
       "properties": {
         "transaction_type": {
-          "description": "Type of the Transaction => static 'ideal_sale'",
+          "description": "Type of the Transaction => static 'sepa_debit_sale'",
           "required":true,
           "type" : "string",
-          "pattern" : "^ideal_sale$"
+          "pattern" : "^sepa_debit_sale$"
         },
         "transaction_id": {
           "required":true,
@@ -35,6 +35,32 @@
           "required":true,
           "extends" : "types.json#/currency"
         },
+        "wire_reference_id": {
+          "required": false,
+          "extends" : "types.json#/wire_reference_id"
+        },
+
+        "bank_account_holder": {
+          "required": true,
+          "extends" : "types.json#/bank_account_holder"
+        },
+        "iban": {
+          "required":true,
+          "extends" : "types.json#/iban"
+        },
+        "bic" : {
+          "required":true,
+          "extends" : "types.json#/bic"
+        },
+        "sepa_mandate_id": {
+          "required":true,
+          "extends" : "types.json#/sepa_mandate_id"
+        },
+        "sepa_mandate_signature_date": {
+          "required":true,
+          "extends" : "types.json#/date"
+        },
+
         "customer_email": {
           "required":true,
           "extends" : "types.json#/customer_email"
@@ -50,36 +76,6 @@
         "risk_params" : {
           "required": false,
           "extends": "types.json#/risk_params"
-        },
-
-        "bank_account_holder": {
-          "required": true,
-          "extends" : "types.json#/bank_account_holder"
-        },
-        "bank_name": {
-          "required": false,
-          "extends" : "types.json#/bank_name"
-        },
-        "bank_account_number": {
-          "required": false,
-          "extends" : "types.json#/bank_account_number"
-        },
-        "bank_number": {
-          "required": false,
-          "extends" : "types.json#/bank_number"
-        },
-
-        "notification_url": {
-          "required":true,
-          "extends" : "types.json#/url"
-        },
-        "return_success_url": {
-          "required":true,
-          "extends" : "types.json#/url"
-        },
-        "return_failure_url": {
-          "required":true,
-          "extends" : "types.json#/url"
         }
       }
     }
