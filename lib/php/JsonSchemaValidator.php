@@ -29,6 +29,11 @@ class JsonSchemaValidator {
 	* @return mixed array containing errors or false
 	*/
 	function check($object) {
+		// recursively convert $object to a StdClass based structure
+		// json-schema-php can only handle objects correctly - instead of assoc arrays
+		// not scalable but thats not an issue here, data sets to validate are small.
+		$object = json_decode(json_encode($object));
+
 		$validator = new \JsonSchema\Validator();
 		$validator->check($object, $this->schema);
 		$errors = $validator->getErrors();
