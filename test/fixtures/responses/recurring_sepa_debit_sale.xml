@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <payment_response>
-<transaction_type>recurring_sepa_debit_sale</transaction_type>
-<status>pending_async</status>
-<unique_id>011e8d5cc1a56058cc50440c265f5063</unique_id>
-<transaction_id>145236</transaction_id>
-<mode>live</mode>
-<timestamp>2007-08-30T17:46:11Z</timestamp>
-<descriptor>Descriptor One</descriptor>
-  <wire_reference_id>ABCD1234EF</wire_reference_id>
-  <amount>5000</amount>
-  <currency>EUR</currency>
+  <transaction_type>recurring_sepa_debit_sale</transaction_type>
+  <status>approved</status>
+  <unique_id>91449b0b7eb34dca6b0666cbfa8d5d03</unique_id>
+  <transaction_id>119643223347501b69b921b</transaction_id>
+  <mode>live</mode>
+  <timestamp>2007-11-30T14:17:15Z</timestamp>
+  <descriptor>descriptor one</descriptor>
+  <amount>9000</amount>
+  <currency>USD</currency>
 </payment_response>
