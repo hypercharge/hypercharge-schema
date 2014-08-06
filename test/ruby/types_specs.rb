@@ -1,3 +1,4 @@
+# encoding: UTF-8
 class TypesSpecs
   @@registry = {}
   def self.describe desc, &block
