@@ -47,6 +47,10 @@
           "required": true,
           "extends": "types.json#/address"
         },
+        "shipping_address": {
+          "required": false,
+          "extends": "types.json#/address"
+        },
         "risk_params" : {
           "required": false,
           "extends": "types.json#/risk_params"

@@ -4,7 +4,7 @@ echo
 echo 'running tests for ruby, php, javascript'
 echo
 echo '---- ruby ----'
-rake
+bundle exec rake
 RUBY_OK=$?
 
 echo

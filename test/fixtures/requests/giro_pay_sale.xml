@@ -23,6 +23,14 @@
     <ssn>This is a string</ssn>
     <user_id>This is a string</user_id>
   </risk_params>
+  <shipping_address>
+    <address1>Münsteraner Allee 7a</address1>
+    <city>Berlin</city>
+    <country>DE</country>
+    <first_name>Muster GmbH</first_name>
+    <last_name>z.Hd. Hr. Mustermann</last_name>
+    <zip_code>10431</zip_code>
+  </shipping_address>
   <transaction_id>145236</transaction_id>
   <transaction_type>giro_pay_sale</transaction_type>
   <usage>40208 concert tickets</usage>

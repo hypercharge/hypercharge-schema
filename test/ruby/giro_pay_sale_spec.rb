@@ -22,6 +22,7 @@ describe 'DebitSale JSON Schema' do
   spec_attribute 'customer_email', required: true
   spec_attribute 'customer_phone'
   spec_attribute 'billing_address', required: true
+  spec_attribute 'shipping_address', spec: 'billing_address'
   spec_attribute 'risk_params'
 
   spec_attribute 'notification_url',   spec: 'url'

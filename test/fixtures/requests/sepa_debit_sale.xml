@@ -22,6 +22,14 @@
     <city>Berlin</city>
     <country>DE</country>
   </billing_address>
+  <shipping_address>
+    <address1>Münsteraner Allee 7a</address1>
+    <city>Berlin</city>
+    <country>DE</country>
+    <first_name>Muster GmbH</first_name>
+    <last_name>z.Hd. Hr. Mustermann</last_name>
+    <zip_code>10431</zip_code>
+  </shipping_address>
   <risk_params>
     <birthday>1968-04-01</birthday>
   </risk_params>

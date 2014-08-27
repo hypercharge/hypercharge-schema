@@ -47,6 +47,10 @@
           "required": false,
           "extends": "types.json#/address"
         },
+        "shipping_address": {
+          "required": false,
+          "extends": "types.json#/address"
+        },
         "transaction_types": {
           "required": false,
           "extends" : "types.json#/transaction_types"
