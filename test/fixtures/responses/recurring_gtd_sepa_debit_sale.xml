@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment_response>
+  <transaction_type>recurring_gtd_sepa_debit_sale</transaction_type>
+  <status>approved</status>
+  <unique_id>91449b0b7eb34dca6b0666cbfa8d5d03</unique_id>
+  <transaction_id>119643223347501b69b921b</transaction_id>
+  <mode>live</mode>
+  <timestamp>2007-11-30T14:17:15Z</timestamp>
+  <descriptor>descriptor one</descriptor>
+  <amount>9000</amount>
+  <currency>USD</currency>
+</payment_response>

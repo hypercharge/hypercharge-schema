@@ -1,5 +1,5 @@
 {
-  "description" : "Hypercharge init_recurring_sepa_debit_authorize Transaction request",
+  "description" : "Hypercharge init_recurring_gtd_sepa_debit_authorize Transaction request",
   "type":"object",
   "$schema": "http://json-schema.org/draft-03/schema",
   "additionalProperties":false,
@@ -10,10 +10,10 @@
       "additionalProperties":false,
       "properties": {
         "transaction_type": {
-          "description": "Type of the Transaction => static 'init_recurring_sepa_debit_authorize'",
+          "description": "Type of the Transaction => static 'init_recurring_gtd_sepa_debit_authorize'",
           "required":true,
           "type" : "string",
-          "pattern" : "^init_recurring_sepa_debit_authorize$"
+          "pattern" : "^init_recurring_gtd_sepa_debit_authorize$"
         },
         "transaction_id": {
           "required":true,

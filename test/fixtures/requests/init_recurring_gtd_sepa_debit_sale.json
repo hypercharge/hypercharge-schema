@@ -1,0 +1,37 @@
+{
+  "payment_transaction":{
+    "transaction_type":"init_recurring_gtd_sepa_debit_sale",
+    "transaction_id":"145236",
+    "wire_reference_id":"ABCD1234EF",
+    "bank_account_holder":"Manfred Test",
+    "iban":"DE18210501700012345678",
+    "bic":"PBNKDEFF",
+    "sepa_mandate_id":"1234567890abcdef",
+    "sepa_mandate_signature_date":"2014-06-24",
+    "usage":"40208 concert tickets",
+    "remote_ip":"127.0.0.1",
+    "amount":5000,
+    "currency":"EUR",
+    "customer_email":"manfred.test@example.com",
+    "customer_phone":"+49301234567",
+    "billing_address":{
+      "first_name":"Manfred",
+      "last_name":"Test",
+      "address1":"Test Str. 123",
+      "zip_code":"12345",
+      "city":"Berlin",
+      "country":"DE"
+    },
+    "shipping_address": {
+      "address1": "Münsteraner Allee 7a",
+      "city": "Berlin",
+      "country": "DE",
+      "first_name": "Muster GmbH",
+      "last_name": "z.Hd. Hr. Mustermann",
+      "zip_code":"10431"
+    },
+    "risk_params":{
+      "birthday":"1968-04-01"
+    }
+  }
+}

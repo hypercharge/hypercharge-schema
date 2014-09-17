@@ -1,0 +1,11 @@
+{
+  "payment_transaction":{
+    "transaction_type": "recurring_gtd_sepa_debit_sale",
+    "transaction_id":"43671",
+    "usage":"40208 concert tickets",
+    "remote_ip":"127.0.0.1",
+    "amount":5000,
+    "currency":"USD",
+    "reference_id":"2ee4287e67971380ef7f97d5743bb523"
+  }
+}

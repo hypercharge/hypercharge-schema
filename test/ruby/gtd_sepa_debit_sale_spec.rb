@@ -1,13 +1,13 @@
 require 'test_helper'
 
 
-describe 'SepaDebitSale JSON Schema' do
-  let(:schema_path){ schema_path_for('sepa_debit_sale') }
-  subject{ fixture('sepa_debit_sale') }
+describe 'GtdSepaDebitSale JSON Schema' do
+  let(:schema_path){ schema_path_for('gtd_sepa_debit_sale') }
+  subject{ fixture('gtd_sepa_debit_sale') }
   let(:root_key){ subject.keys.first }
 
   root_wont_allow_additional_properties
-  spec_attribute 'transaction_type', value: 'sepa_debit_sale'
+  spec_attribute 'transaction_type', value: 'gtd_sepa_debit_sale'
   spec_attribute 'transaction_id'
   spec_attribute 'usage'
   spec_attribute 'remote_ip', required: true

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <payment_transaction>
+  <transaction_type>recurring_gtd_sepa_debit_sale</transaction_type>
+  <transaction_id>43671</transaction_id>
+  <usage>40208 concert tickets</usage>
+  <remote_ip>127.0.0.1</remote_ip>
+  <amount>5000</amount>
+  <currency>USD</currency>
+  <reference_id>2ee4287e67971380ef7f97d5743bb523</reference_id>
+</payment_transaction>

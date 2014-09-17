@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payment_transaction>
+  <transaction_type>init_recurring_gtd_sepa_debit_sale</transaction_type>
+  <transaction_id>145236</transaction_id>
+  <wire_reference_id>ABCD1234EF</wire_reference_id>
+  <bank_account_holder>Manfred Test</bank_account_holder>
+  <iban>DE18210501700012345678</iban>
+  <bic>PBNKDEFF</bic>
+  <sepa_mandate_id>1234567890abcdef</sepa_mandate_id>
+  <sepa_mandate_signature_date>2014-06-24</sepa_mandate_signature_date>
+  <usage>40208 concert tickets</usage>
+  <remote_ip>127.0.0.1</remote_ip>
+  <amount>5000</amount>
+  <currency>EUR</currency>
+  <customer_email>manfred.test@example.com</customer_email>
+  <customer_phone>+49301234567</customer_phone>
+  <billing_address>
+    <first_name>Manfred</first_name>
+    <last_name>Test</last_name>
+    <address1>Test Str. 123</address1>
+    <zip_code>12345</zip_code>
+    <city>Berlin</city>
+    <country>DE</country>
+  </billing_address>
+  <shipping_address>
+    <address1>Münsteraner Allee 7a</address1>
+    <city>Berlin</city>
+    <country>DE</country>
+    <first_name>Muster GmbH</first_name>
+    <last_name>z.Hd. Hr. Mustermann</last_name>
+    <zip_code>10431</zip_code>
+  </shipping_address>
+  <risk_params>
+    <birthday>1968-04-01</birthday>
+  </risk_params>
+</payment_transaction>

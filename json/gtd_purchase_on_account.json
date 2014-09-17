@@ -1,5 +1,5 @@
 {
-  "description" : "Hypercharge init_recurring_sepa_debit_authorize Transaction request",
+  "description" : "Hypercharge gtd_purchase_on_account Transaction request",
   "type":"object",
   "$schema": "http://json-schema.org/draft-03/schema",
   "additionalProperties":false,
@@ -10,10 +10,10 @@
       "additionalProperties":false,
       "properties": {
         "transaction_type": {
-          "description": "Type of the Transaction => static 'init_recurring_sepa_debit_authorize'",
+          "description": "Type of the Transaction => static 'gtd_purchase_on_account'",
           "required":true,
           "type" : "string",
-          "pattern" : "^init_recurring_sepa_debit_authorize$"
+          "pattern" : "^gtd_purchase_on_account$"
         },
         "transaction_id": {
           "required":true,
@@ -26,6 +26,10 @@
         "remote_ip": {
           "required":true,
           "extends": "types.json#/ipv4"
+        },
+        "wire_reference_id": {
+          "required": false,
+          "extends": "types.json#/wire_reference_id"
         },
         "amount": {
           "required":true,
@@ -43,31 +47,30 @@
           "required":false,
           "extends" : "types.json#/customer_phone"
         },
-        "wire_reference_id": {
+        "company_name": {
           "required": false,
-          "extends" : "types.json#/wire_reference_id"
+          "extends" : "types.json#/company_name"
         },
         "bank_account_holder": {
-          "required": true,
+          "required": false,
           "extends" : "types.json#/bank_account_holder"
         },
+        "bank_account_number": {
+          "required": false,
+          "extends" : "types.json#/bank_account_number"
+        },
+        "bank_number": {
+          "required": false,
+          "extends" : "types.json#/bank_number"
+        },
         "iban": {
-          "required": true,
+          "required": false,
           "extends" : "types.json#/iban"
         },
         "bic" : {
-          "required": true,
+          "required": false,
           "extends" : "types.json#/bic"
         },
-        "sepa_mandate_id": {
-          "required": true,
-          "extends" : "types.json#/sepa_mandate_id"
-        },
-        "sepa_mandate_signature_date": {
-          "required": true,
-          "extends" : "types.json#/date"
-        },
-
         "billing_address": {
           "required": true,
           "extends": "types.json#/address"
@@ -79,10 +82,6 @@
         "risk_params" : {
           "required": false,
           "extends": "types.json#/risk_params_birthday_only"
-        },
-        "recurring_schedule" : {
-          "required": false,
-          "extends": "types.json#/recurring_schedule"
         }
       }
     }
