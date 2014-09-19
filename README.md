@@ -2,7 +2,7 @@
 
 json-schema for hypercharge payment request data.
 
-Matches hypercharge API pdf documention version 2.23 2014/08/05
+Matches [hypercharge-API-doc](https://github.com/hypercharge/hypercharge-api-doc) version 2.24 2014/09/16
 
 [![Build Status](https://travis-ci.org/hypercharge/hypercharge-schema.png?branch=master)](https://travis-ci.org/hypercharge/hypercharge-schema)
 [![Gem Version](https://badge.fury.io/rb/hypercharge-schema.png)](http://badge.fury.io/rb/hypercharge-schema)
