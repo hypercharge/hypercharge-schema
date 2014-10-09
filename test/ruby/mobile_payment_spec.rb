@@ -8,6 +8,7 @@ describe 'MobilePayment JSON Schema' do
 
   root_wont_allow_additional_properties
   spec_attribute 'type', value: 'MobilePayment'
+  spec_attribute 'transaction_types'
   spec_attribute 'amount'
   spec_attribute 'currency'
   spec_attribute 'transaction_id'

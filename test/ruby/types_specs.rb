@@ -505,7 +505,10 @@ class TypesSpecs
         'giro_pay_sale', 'pay_safe_card_sale', 'init_recurring_authorize',
         'purchase_on_account', 'pay_in_advance', 'deposit', 'payment_on_delivery',
         'pay_pal', 'init_recurring_debit_sale', 'init_recurring_debit_authorize',
-        'recurring_debit_sale', 'barzahlen_sale'].each do |tt|
+        'recurring_debit_sale', 'barzahlen_sale',
+        'gtd_sepa_debit_sale', 'init_recurring_gtd_sepa_debit_sale','init_recurring_sepa_debit_authorize',
+        'init_recurring_gtd_sepa_debit_authorize','gtd_purchase_on_account','recurring_gtd_sepa_debit_sale'
+        ].each do |tt|
           subject[root_key]['transaction_types'] = [tt]
           validate(schema_path, subject).must_equal true
       end

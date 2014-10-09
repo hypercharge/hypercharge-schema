@@ -411,7 +411,12 @@
       "purchase_on_account", "pay_in_advance", "deposit", "payment_on_delivery",
       "pay_pal", "init_recurring_debit_sale", "init_recurring_debit_authorize",
       "recurring_debit_sale", "barzahlen_sale",
-      "gtd_sepa_debit_sale", "init_recurring_gtd_sepa_debit_sale", "init_recurring_gtd_sepa_debit_authorize", "recurring_gtd_sepa_debit_sale"]
+      "gtd_sepa_debit_sale",
+      "init_recurring_gtd_sepa_debit_sale",
+      "init_recurring_sepa_debit_authorize",
+      "init_recurring_gtd_sepa_debit_authorize",
+      "gtd_purchase_on_account",
+      "recurring_gtd_sepa_debit_sale"]
     }
   },
   "page": {
