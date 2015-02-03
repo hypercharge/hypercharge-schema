@@ -8,6 +8,7 @@ describe 'WpfPayment JSON Schema' do
 
   root_wont_allow_additional_properties
   spec_attribute 'type', value: 'WpfPayment'
+  spec_attribute 'transaction_types'
   spec_attribute 'amount'
   spec_attribute 'currency'
   spec_attribute 'transaction_id'

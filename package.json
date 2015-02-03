@@ -1,6 +1,6 @@
 {
   "name": "hypercharge-schema",
-  "version": "1.25.1",
+  "version": "1.25.2",
   "author": "Jan Mentzel <jan@hypercharge.net>",
   "dependencies": {
     "jsonschema": "git://github.com/hypercharge/jsonschema.git#master"
