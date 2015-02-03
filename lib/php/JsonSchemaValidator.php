@@ -1,7 +1,7 @@
 <?php
 namespace Hypercharge;
 
-const SCHEMA_VERSION = '1.25.2';
+const SCHEMA_VERSION = '1.25.3';
 
 class JsonSchemaValidator {
 	private $schemaUri;
