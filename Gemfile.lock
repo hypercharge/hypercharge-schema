@@ -1,24 +1,22 @@
 PATH
   remote: .
   specs:
-    hypercharge-schema (1.25.2)
-      json-schema (~> 2.1.3)
+    hypercharge-schema (1.25.4)
+      json-schema (~> 2.7.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    columnize (0.3.6)
-    debugger (1.6.0)
-      columnize (>= 0.3.1)
-      debugger-linecache (~> 1.2.0)
-      debugger-ruby_core_source (~> 1.2.1)
-    debugger-linecache (1.2.0)
-    debugger-ruby_core_source (1.2.2)
-    json (1.8.0)
-    json (1.8.0-java)
-    json-schema (2.1.9)
-    minitest (4.7.5)
-    rake (10.1.0)
+    addressable (2.5.0)
+      public_suffix (~> 2.0, >= 2.0.2)
+    byebug (9.0.6)
+    json (2.0.3)
+    json (2.0.3-java)
+    json-schema (2.7.0)
+      addressable (>= 2.4)
+    minitest (5.10.1)
+    public_suffix (2.0.5)
+    rake (12.0.0)
 
 PLATFORMS
   java
@@ -26,8 +24,11 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.3)
-  debugger
+  byebug
   hypercharge-schema!
   json
   minitest (>= 4.7.5)
   rake
+
+BUNDLED WITH
+   1.14.3
