@@ -9,7 +9,7 @@ module Hypercharge
 	module Schema
 
 		# validates a hash with JSON-Schema
-		def self.validate(type, data, *opts = {})
+		def self.validate(type, data, opts = {})
       opts.merge!({ version: :draft3 })
 			JSON::Validator.fully_validate(schema_path_for(type), data, opts)
 		end
