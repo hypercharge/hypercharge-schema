@@ -3,5 +3,5 @@ source 'https://rubygems.org'
 gemspec
 
 group :debug do
-  gem 'byebug', platforms: :mri
+  gem 'debugger', platforms: :mri
 end
