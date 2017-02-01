@@ -501,7 +501,7 @@ class TypesSpecs
 
     it 'must allow customer initiated payments_transaction types' do
       ['authorize', 'authorize3d', 'sale', 'sale3d', 'init_recurring_sale',
-        'ideal_sale', 'debit_sale', 'sepa_debit', 'direct_pay24_sale',
+        'ideal_sale', 'debit_sale', 'sepa_debit_sale', 'direct_pay24_sale',
         'giro_pay_sale', 'pay_safe_card_sale', 'init_recurring_authorize',
         'purchase_on_account', 'pay_in_advance', 'deposit', 'payment_on_delivery',
         'pay_pal', 'init_recurring_debit_sale', 'init_recurring_debit_authorize',
