@@ -439,6 +439,7 @@
           "init_recurring_debit_sale",
           "init_recurring_debit_authorize",
           "recurring_debit_sale",
+					"barzahlen_sale",
           "eps_sale"]
     }
   },
