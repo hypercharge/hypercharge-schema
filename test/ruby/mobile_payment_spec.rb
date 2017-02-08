@@ -19,5 +19,6 @@ describe 'MobilePayment JSON Schema' do
   spec_attribute 'billing_address', required: false
   spec_attribute 'retries'
   spec_attribute 'risk_params'
+  spec_attribute 'meta'
   spec_attribute 'recurring_schedule'
 end

@@ -55,7 +55,10 @@
           "required": false,
           "extends": "types.json#/risk_params"
         },
-
+				"meta": {
+					 "required": false,
+					 "extends": "types.json#/meta"
+				},
         "bank_account_holder": {
           "required": true,
           "extends" : "types.json#/bank_account_holder"
@@ -72,7 +75,6 @@
           "required": false,
           "extends" : "types.json#/bank_number"
         },
-
         "notification_url": {
           "required":true,
           "extends" : "types.json#/url"

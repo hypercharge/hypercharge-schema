@@ -71,6 +71,10 @@
           "required": false,
           "extends": "types.json#/risk_params"
         },
+				"meta": {
+					 "required": false,
+					 "extends": "types.json#/meta"
+				},
         "notification_url":{
            "required":true,
            "extends":"types.json#/url"

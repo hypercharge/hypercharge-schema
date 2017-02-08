@@ -55,6 +55,10 @@
           "required": false,
           "extends": "types.json#/address"
         },
+				"meta": {
+					 "required": false,
+					 "extends": "types.json#/meta"
+				},
         "notification_url": {
           "required":true,
           "extends" : "types.json#/url"

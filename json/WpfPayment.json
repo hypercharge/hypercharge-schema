@@ -78,6 +78,10 @@
           "required": false,
           "extends": "types.json#/risk_params"
         },
+				"meta": {
+					 "required": false,
+					 "extends": "types.json#/meta"
+				},
         "recurring_schedule":{
           "required": false,
           "extends": "types.json#/recurring_schedule"

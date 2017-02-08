@@ -23,5 +23,6 @@ describe 'InitRecurringAuthorize JSON Schema' do
   spec_attribute 'billing_address', required: true
   spec_attribute 'shipping_address', spec: 'billing_address'
   spec_attribute 'risk_params'
+  spec_attribute 'meta'
   spec_attribute 'recurring_schedule'
 end

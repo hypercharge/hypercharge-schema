@@ -38,7 +38,11 @@
         "currency": {
           "required":true,
           "extends" : "types.json#/currency"
-        }
+        },
+				"meta": {
+					 "required": false,
+					 "extends": "types.json#/meta"
+				}
       }
     }
   }

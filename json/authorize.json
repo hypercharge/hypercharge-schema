@@ -74,6 +74,10 @@
 				"risk_params": {
 					"required": false,
 					"extends": "types.json#/risk_params"
+				},
+				"meta": {
+					"required": false,
+					"extends": "types.json#/meta"
 				}
 			}
 		}

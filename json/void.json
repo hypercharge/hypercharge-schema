@@ -26,7 +26,11 @@
         "reference_id": {
           "required":true,
           "extends": "types.json#/reference_id"
-        }
+        },
+				"meta": {
+					 "required": false,
+					 "extends": "types.json#/meta"
+				}
       }
     }
   }

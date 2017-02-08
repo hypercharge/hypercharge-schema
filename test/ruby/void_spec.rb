@@ -11,4 +11,5 @@ describe 'Void JSON Schema' do
   spec_attribute 'reference_id', spec: 'unique_id'
   spec_attribute 'transaction_id'
   spec_attribute 'usage'
+  spec_attribute 'meta'
 end

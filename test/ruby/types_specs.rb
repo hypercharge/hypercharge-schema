@@ -617,6 +617,61 @@ class TypesSpecs
     end
   end
 
+  describe 'meta' do
+    describe 'the object' do
+      it 'not allow additionalProperties' do
+        subject[root_key]['meta'] = {}
+        subject[root_key]['meta']['notInSchema'] = 1
+        validate(schema_path, subject).must_equal false
+      end
+    end
+
+    it 'is optional' do
+      subject[root_key].delete('meta')
+      validate(schema_path, subject).must_equal true
+    end
+
+    it 'must allow the following keys' do
+      ['ssn', 'mac_address', 'session_id', 'user_id', 'user_level',
+        'email', 'phone', 'remote_ip', 'serial_number', 'infocapture_token'].each do |tt|
+        subject[root_key]['meta'] = {tt => 'a string'}
+        validate(schema_path, subject).must_equal true
+      end
+    end
+
+    it 'wont allow two keys in items' do
+      subject[root_key]['meta'] = [{'ssn' => 'a string', 'user_level' => '1'}]
+      validate(schema_path, subject).must_equal false
+    end
+
+
+    it 'allow arbitrary keys in items' do
+      subject[root_key]['risk_params'] = {'NOPE' => 'a string'}
+      validate(schema_path, subject).must_equal false
+    end
+
+    # TODO:
+    # it 'wont allow empty object' do
+    #   subject[root_key]['risk_params'] = {}
+    #   validate(schema_path, subject).must_equal false
+    # end
+
+    it 'wont allow non object type' do
+      subject[root_key]['meta'] = 'not an object!'
+      validate(schema_path, subject).must_equal false
+    end
+
+    it 'wont allow array' do
+      subject[root_key]['meta'] = ['not an object!']
+      validate(schema_path, subject).must_equal false
+    end
+    
+    it 'wont allow invalid keys' do
+      subject[root_key]['meta'] = {'!9NOPE' => 'a string'}
+      validate(schema_path, subject).must_equal false
+    end
+
+  end
 
   describe 'recurring_schedule' do
     it 'is optional' do

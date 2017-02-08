@@ -28,4 +28,5 @@ describe 'PurchaseOnAccount JSON Schema' do
   spec_attribute 'shipping_address', required: false, spec: 'billing_address'
 
   spec_attribute 'risk_params_birthday', required: false
+  spec_attribute 'meta'
 end

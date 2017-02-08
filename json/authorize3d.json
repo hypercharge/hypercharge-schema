@@ -77,6 +77,10 @@
                      "required":false,
                      "extends":"types.json#/risk_params"
                   },
+									"meta": {
+										 "required": false,
+										 "extends": "types.json#/meta"
+									},
                   "notification_url":{
                      "required":true,
                      "extends":"types.json#/url"
@@ -169,6 +173,10 @@
                      "required":false,
                      "extends":"types.json#/risk_params"
                   },
+									"meta": {
+										 "required": false,
+										 "extends": "types.json#/meta"
+									},
                   "mpi_params":{
                      "required":true,
                      "extends":"types.json#/mpi_params"

@@ -13,4 +13,5 @@ describe 'Refund JSON Schema' do
   spec_attribute 'usage'
   spec_attribute 'amount'
   spec_attribute 'currency'
+  spec_attribute 'meta'
 end

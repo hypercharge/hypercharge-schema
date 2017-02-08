@@ -14,4 +14,5 @@ describe 'RecurringSepaDebitSale JSON Schema' do
   spec_attribute 'remote_ip', required: true
   spec_attribute 'amount'
   spec_attribute 'currency'
+  spec_attribute 'meta'
 end

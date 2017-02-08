@@ -67,7 +67,6 @@
           "required": true,
           "extends" : "types.json#/date"
         },
-
         "billing_address": {
           "required": true,
           "extends": "types.json#/address"
@@ -80,6 +79,10 @@
           "required": false,
           "extends": "types.json#/risk_params_birthday_only"
         },
+				"meta": {
+					 "required": false,
+					 "extends": "types.json#/meta"
+				},
         "recurring_schedule" : {
           "required": false,
           "extends": "types.json#/recurring_schedule"
