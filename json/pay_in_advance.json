@@ -16,7 +16,7 @@
           "pattern" : "^pay_in_advance$"
         },
         "transaction_id": {
-          "required":true,
+          "required":false,
           "extends" : "types.json#/transaction_id"
         },
         "usage": {

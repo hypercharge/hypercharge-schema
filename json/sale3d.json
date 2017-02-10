@@ -18,7 +18,7 @@
                      "pattern":"^sale3d$"
                   },
                   "transaction_id":{
-                     "required":true,
+                     "required":false,
                      "extends":"types.json#/transaction_id"
                   },
                   "usage":{
@@ -114,7 +114,7 @@
                      "pattern":"^sale3d$"
                   },
                   "transaction_id":{
-                     "required":true,
+                     "required":false,
                      "extends":"types.json#/transaction_id"
                   },
                   "usage":{

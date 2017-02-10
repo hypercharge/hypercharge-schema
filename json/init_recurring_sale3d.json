@@ -18,7 +18,7 @@
                      "pattern":"^init_recurring_sale3d$"
                   },
                   "transaction_id":{
-                     "required":true,
+                     "required":false,
                      "extends":"types.json#/transaction_id"
                   },
                   "usage":{
@@ -118,7 +118,7 @@
                      "pattern":"^init_recurring_sale3d$"
                   },
                   "transaction_id":{
-                     "required":true,
+                     "required":false,
                      "extends":"types.json#/transaction_id"
                   },
                   "usage":{

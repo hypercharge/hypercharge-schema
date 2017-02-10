@@ -16,7 +16,7 @@
 					"pattern": "^authorize$"
 				},
 				"transaction_id": {
-					"required": true,
+					"required": false,
 					"extends": "types.json#/transaction_id"
 				},
 				"usage": {

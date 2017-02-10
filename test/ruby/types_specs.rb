@@ -127,9 +127,9 @@ class TypesSpecs
   end
 
   describe 'transaction_id' do
-    it 'must be present' do
+    it 'must not be present' do
       subject[root_key].delete('transaction_id')
-      validate(schema_path, subject).must_equal false
+      validate(schema_path, subject).must_equal true
     end
 
     it 'wont be empty' do
