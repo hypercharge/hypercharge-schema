@@ -5,6 +5,7 @@
       "currency":"EUR",
       "transaction_id":"0AF671AF-4134-4BE7-BDF0-26E38B74106E",
       "usage":"Order 12345 pucrchase of concert tickets",
+			"card_holder": "Test Test",
       "customer_email":"customer@example.com",
       "customer_phone":"004903000000000",
       "notification_url":"https://example.com/mobile_payment_notify",

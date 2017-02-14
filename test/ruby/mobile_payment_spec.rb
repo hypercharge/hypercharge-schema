@@ -13,6 +13,7 @@ describe 'MobilePayment JSON Schema' do
   spec_attribute 'currency'
   spec_attribute 'transaction_id'
   spec_attribute 'usage', required: true
+  spec_attribute 'payment_card_holder'
   spec_attribute 'customer_email', required: false
   spec_attribute 'customer_phone'
   spec_attribute 'notification_url',   spec: 'url'

@@ -886,6 +886,28 @@ class TypesSpecs
       validate(schema_path, subject).must_equal false
     end
   end
+  
+  describe 'payment_card_holder' do
+    it 'must not be present' do
+      subject[root_key].delete('card_holder')
+      validate(schema_path, subject).must_equal true
+    end
+
+    it 'can not be empty' do
+      subject[root_key]['card_holder'] = ''
+      validate(schema_path, subject).must_equal false
+    end
+
+    it 'must allow size = 255' do
+      subject[root_key]['card_holder'] = 'a' * 255
+      validate(schema_path, subject).must_equal true
+    end
+
+    it 'wont allow size > 255' do
+      subject[root_key]['card_holder'] = 'a' * 256
+      validate(schema_path, subject).must_equal false
+    end
+  end
 
   describe 'card_number' do
     it 'must be present' do

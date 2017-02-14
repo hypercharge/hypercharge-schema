@@ -11,6 +11,7 @@
     <zip_code>10115</zip_code>
   </billing_address>
   <currency>EUR</currency>
+	<card_holder>Test Test</card_holder>
   <customer_email>customer@example.com</customer_email>
   <customer_phone>004903000000000</customer_phone>
   <expires_in>3600</expires_in>
